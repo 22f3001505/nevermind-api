@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "text": "How comfortable are you with writing Python code?",
+    "category": "programming",
+    "options": [
+      {"label": "Never tried it", "skills": {"python": 0.0}},
+      {"label": "I know the basics (variables, loops)", "skills": {"python": 0.3}},
+      {"label": "I can build small projects", "skills": {"python": 0.6}},
+      {"label": "I can build complex applications", "skills": {"python": 0.9}}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "How would you rate your JavaScript skills?",
+    "category": "programming",
+    "options": [
+      {"label": "Never used it", "skills": {"javascript": 0.0}},
+      {"label": "Basic DOM manipulation", "skills": {"javascript": 0.3}},
+      {"label": "Comfortable with frameworks (React/Vue)", "skills": {"javascript": 0.7}},
+      {"label": "Advanced (async, closures, performance)", "skills": {"javascript": 0.95}}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "How do you feel about building user interfaces and web pages?",
+    "category": "design",
+    "options": [
+      {"label": "Not interested at all", "skills": {"html_css": 0.0, "design": 0.0}},
+      {"label": "I can make basic pages", "skills": {"html_css": 0.4, "design": 0.2}},
+      {"label": "I enjoy making things look great", "skills": {"html_css": 0.7, "design": 0.6}},
+      {"label": "I love pixel-perfect, responsive design", "skills": {"html_css": 0.95, "design": 0.9}}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "How comfortable are you working with databases and SQL?",
+    "category": "data",
+    "options": [
+      {"label": "Never used a database", "skills": {"sql": 0.0}},
+      {"label": "Basic SELECT and INSERT queries", "skills": {"sql": 0.3}},
+      {"label": "JOINs, indexes, and schema design", "skills": {"sql": 0.7}},
+      {"label": "Query optimization and database administration", "skills": {"sql": 0.95}}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "When faced with a complex logical puzzle, how do you react?",
+    "category": "logic",
+    "options": [
+      {"label": "I avoid them", "skills": {"problem_solving": 0.1}},
+      {"label": "I try but often need help", "skills": {"problem_solving": 0.35}},
+      {"label": "I enjoy the challenge and usually solve them", "skills": {"problem_solving": 0.7}},
+      {"label": "I love them — the harder the better", "skills": {"problem_solving": 0.95}}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "How interested are you in Machine Learning and Artificial Intelligence?",
+    "category": "interest",
+    "options": [
+      {"label": "Not interested", "skills": {"ml_ai": 0.0}},
+      {"label": "Curious but haven't explored much", "skills": {"ml_ai": 0.25}},
+      {"label": "I've taken courses or built basic models", "skills": {"ml_ai": 0.6}},
+      {"label": "Deeply passionate — I build and train models", "skills": {"ml_ai": 0.95}}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Do you enjoy designing the look and feel of applications?",
+    "category": "design",
+    "options": [
+      {"label": "Not at all — I prefer backend logic", "skills": {"design": 0.05, "problem_solving": 0.1}},
+      {"label": "A little — I appreciate good design", "skills": {"design": 0.3}},
+      {"label": "Yes — I like color theory, typography, layouts", "skills": {"design": 0.7}},
+      {"label": "Absolutely — UX research and prototyping excite me", "skills": {"design": 0.95}}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "How familiar are you with networking concepts (TCP/IP, DNS, firewalls)?",
+    "category": "systems",
+    "options": [
+      {"label": "No idea what those are", "skills": {"networking": 0.0}},
+      {"label": "I know the basics", "skills": {"networking": 0.3}},
+      {"label": "I can configure networks and troubleshoot", "skills": {"networking": 0.65}},
+      {"label": "I understand advanced network architecture", "skills": {"networking": 0.95}}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Have you used CI/CD tools, Docker, or cloud platforms?",
+    "category": "devops",
+    "options": [
+      {"label": "Never", "skills": {"devops": 0.0}},
+      {"label": "I've heard of them / tried once", "skills": {"devops": 0.2}},
+      {"label": "I use Docker and basic CI/CD pipelines", "skills": {"devops": 0.6}},
+      {"label": "I manage infrastructure, K8s, cloud deployments", "skills": {"devops": 0.95}}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "How do you prefer to work in a team?",
+    "category": "personality",
+    "options": [
+      {"label": "I prefer working alone", "skills": {"communication": 0.15}},
+      {"label": "Small teams are okay", "skills": {"communication": 0.4}},
+      {"label": "I enjoy collaborating with others", "skills": {"communication": 0.7}},
+      {"label": "I love leading and mentoring team members", "skills": {"communication": 0.95}}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "What excites you more: building the frontend or the backend of an app?",
+    "category": "interest",
+    "options": [
+      {"label": "Definitely frontend (UI, interactions)", "skills": {"html_css": 0.3, "javascript": 0.3, "design": 0.3}},
+      {"label": "Definitely backend (APIs, databases, logic)", "skills": {"python": 0.3, "sql": 0.3, "problem_solving": 0.2}},
+      {"label": "Both equally — I enjoy full stack", "skills": {"javascript": 0.2, "python": 0.2, "html_css": 0.15, "sql": 0.15}},
+      {"label": "Neither — I prefer data, ML, or infrastructure", "skills": {"ml_ai": 0.2, "devops": 0.2, "networking": 0.1}}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "How comfortable are you with mathematics and statistics?",
+    "category": "analytical",
+    "options": [
+      {"label": "I struggle with math", "skills": {"ml_ai": 0.0, "problem_solving": 0.05}},
+      {"label": "Basic math is fine", "skills": {"ml_ai": 0.15, "problem_solving": 0.15}},
+      {"label": "I enjoy statistics and probability", "skills": {"ml_ai": 0.5, "problem_solving": 0.3}},
+      {"label": "Linear algebra, calculus, stats — love them all", "skills": {"ml_ai": 0.4, "problem_solving": 0.3}}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Have you built any mobile applications?",
+    "category": "experience",
+    "options": [
+      {"label": "Never", "skills": {"javascript": 0.0}},
+      {"label": "I've followed a tutorial once", "skills": {"javascript": 0.15, "design": 0.1}},
+      {"label": "I've built and published a basic app", "skills": {"javascript": 0.35, "design": 0.2, "problem_solving": 0.1}},
+      {"label": "I've built multiple production apps", "skills": {"javascript": 0.3, "design": 0.25, "problem_solving": 0.2}}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "How interested are you in cybersecurity and ethical hacking?",
+    "category": "security",
+    "options": [
+      {"label": "Not interested", "skills": {"networking": 0.0}},
+      {"label": "Somewhat curious", "skills": {"networking": 0.2, "problem_solving": 0.1}},
+      {"label": "I've explored security tools and concepts", "skills": {"networking": 0.4, "problem_solving": 0.25}},
+      {"label": "Passionate — I do CTFs and security research", "skills": {"networking": 0.5, "problem_solving": 0.3}}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "How do you feel about writing tests and ensuring software quality?",
+    "category": "quality",
+    "options": [
+      {"label": "I skip tests whenever I can", "skills": {"problem_solving": 0.0}},
+      {"label": "I write basic tests when required", "skills": {"problem_solving": 0.2}},
+      {"label": "I value testing and write unit tests regularly", "skills": {"problem_solving": 0.4, "communication": 0.1}},
+      {"label": "I love QA — test automation, edge cases, coverage", "skills": {"problem_solving": 0.4, "communication": 0.2}}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Which type of data work interests you most?",
+    "category": "data",
+    "options": [
+      {"label": "Not interested in data work", "skills": {"sql": 0.0, "ml_ai": 0.0}},
+      {"label": "Data cleaning and visualization", "skills": {"sql": 0.3, "python": 0.15}},
+      {"label": "Building data pipelines and warehouses", "skills": {"sql": 0.4, "python": 0.2, "devops": 0.1}},
+      {"label": "Training ML models and data science", "skills": {"ml_ai": 0.4, "python": 0.2}}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Do you prefer managing servers and infrastructure or writing application code?",
+    "category": "systems",
+    "options": [
+      {"label": "Definitely application code", "skills": {"python": 0.15, "javascript": 0.15}},
+      {"label": "A mix of both", "skills": {"devops": 0.3, "python": 0.1}},
+      {"label": "I enjoy server management and automation", "skills": {"devops": 0.5, "networking": 0.2}},
+      {"label": "Infrastructure is my passion — cloud, containers, monitoring", "skills": {"devops": 0.5, "networking": 0.3}}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "How many personal or academic projects have you completed?",
+    "category": "experience",
+    "options": [
+      {"label": "None yet", "skills": {"problem_solving": 0.05}},
+      {"label": "1-2 small projects", "skills": {"problem_solving": 0.2}},
+      {"label": "3-5 projects across different domains", "skills": {"problem_solving": 0.35, "communication": 0.1}},
+      {"label": "6+ projects, some deployed or published", "skills": {"problem_solving": 0.4, "communication": 0.2}}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "What motivates you more in a tech career?",
+    "category": "personality",
+    "options": [
+      {"label": "Building beautiful user experiences", "skills": {"design": 0.3, "html_css": 0.2}},
+      {"label": "Solving complex technical challenges", "skills": {"problem_solving": 0.3, "python": 0.1}},
+      {"label": "Working with data and finding insights", "skills": {"ml_ai": 0.25, "sql": 0.2}},
+      {"label": "Keeping systems secure and reliable", "skills": {"networking": 0.25, "devops": 0.2}}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Where do you see yourself in 5 years?",
+    "category": "career_vision",
+    "options": [
+      {"label": "Leading a frontend/design team", "skills": {"design": 0.3, "javascript": 0.15, "communication": 0.2}},
+      {"label": "Architecting scalable backend systems", "skills": {"python": 0.2, "sql": 0.15, "devops": 0.15, "problem_solving": 0.15}},
+      {"label": "Doing cutting-edge AI/ML research", "skills": {"ml_ai": 0.4, "python": 0.15}},
+      {"label": "Managing cloud infrastructure at scale", "skills": {"devops": 0.3, "networking": 0.2, "communication": 0.1}}
+    ]
+  }
+]

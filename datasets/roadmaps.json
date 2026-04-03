@@ -1,0 +1,407 @@
+{
+  "Frontend Developer": {
+    "description": "Build user interfaces and interactive web experiences using modern JavaScript frameworks.",
+    "avg_salary": "$75,000 - $130,000",
+    "growth_outlook": "High — demand growing 23% by 2031",
+    "key_skills": ["JavaScript", "React/Vue/Angular", "HTML/CSS", "Responsive Design", "REST APIs"],
+    "key_companies": ["Meta", "Airbnb", "Shopify", "Stripe", "Vercel"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "HTML5 Fundamentals", "duration": "1 week", "outcome": "Build semantic web pages"},
+        {"topic": "CSS3 & Flexbox/Grid", "duration": "2 weeks", "outcome": "Create responsive layouts"},
+        {"topic": "JavaScript Basics", "duration": "3 weeks", "outcome": "Understand variables, functions, DOM"},
+        {"topic": "Version Control (Git)", "duration": "1 week", "outcome": "Track code changes, use GitHub"}
+      ],
+      "intermediate": [
+        {"topic": "React.js", "duration": "4 weeks", "outcome": "Build component-based SPAs"},
+        {"topic": "State Management (Redux)", "duration": "2 weeks", "outcome": "Manage complex app state"},
+        {"topic": "REST API Integration", "duration": "2 weeks", "outcome": "Fetch and display backend data"},
+        {"topic": "CSS Frameworks (Tailwind)", "duration": "1 week", "outcome": "Rapid UI prototyping"}
+      ],
+      "advanced": [
+        {"topic": "Performance Optimization", "duration": "2 weeks", "outcome": "Lighthouse score 90+"},
+        {"topic": "Testing (Jest, Cypress)", "duration": "2 weeks", "outcome": "Write unit and E2E tests"},
+        {"topic": "TypeScript", "duration": "3 weeks", "outcome": "Type-safe JavaScript development"},
+        {"topic": "Next.js / SSR", "duration": "3 weeks", "outcome": "Build production-grade apps"}
+      ]
+    }
+  },
+  "Backend Developer": {
+    "description": "Design and build server-side logic, APIs, and database architectures that power applications.",
+    "avg_salary": "$80,000 - $140,000",
+    "growth_outlook": "High — strong demand in enterprise and startup sectors",
+    "key_skills": ["Python/Java/Node.js", "REST APIs", "SQL", "System Design", "Authentication"],
+    "key_companies": ["Google", "Amazon", "Microsoft", "Stripe", "Atlassian"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Python Fundamentals", "duration": "2 weeks", "outcome": "Write Python scripts confidently"},
+        {"topic": "SQL & Database Basics", "duration": "2 weeks", "outcome": "CRUD operations, schema design"},
+        {"topic": "HTTP & REST Concepts", "duration": "1 week", "outcome": "Understand request/response cycle"},
+        {"topic": "Django / Flask Basics", "duration": "3 weeks", "outcome": "Build your first REST API"}
+      ],
+      "intermediate": [
+        {"topic": "Django REST Framework", "duration": "3 weeks", "outcome": "Build production APIs with DRF"},
+        {"topic": "Authentication & Authorization", "duration": "2 weeks", "outcome": "JWT, OAuth, session-based auth"},
+        {"topic": "Database Optimization", "duration": "2 weeks", "outcome": "Query optimization, indexing"},
+        {"topic": "Caching (Redis)", "duration": "1 week", "outcome": "Speed up API responses"}
+      ],
+      "advanced": [
+        {"topic": "System Design", "duration": "4 weeks", "outcome": "Design scalable distributed systems"},
+        {"topic": "Microservices Architecture", "duration": "3 weeks", "outcome": "Build loosely-coupled services"},
+        {"topic": "Message Queues (RabbitMQ/Kafka)", "duration": "2 weeks", "outcome": "Async event processing"},
+        {"topic": "Containerization (Docker)", "duration": "2 weeks", "outcome": "Package and deploy applications"}
+      ]
+    }
+  },
+  "Full Stack Developer": {
+    "description": "Work across the entire technology stack — from UI to database to deployment.",
+    "avg_salary": "$85,000 - $150,000",
+    "growth_outlook": "Very High — most versatile engineering role",
+    "key_skills": ["JavaScript", "Python/Node.js", "React", "SQL", "DevOps Basics"],
+    "key_companies": ["Startups", "Google", "Meta", "Spotify", "Uber"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "HTML, CSS, JavaScript", "duration": "4 weeks", "outcome": "Build complete web pages"},
+        {"topic": "Python & Django", "duration": "3 weeks", "outcome": "Create backend APIs"},
+        {"topic": "SQL Fundamentals", "duration": "2 weeks", "outcome": "Database CRUD operations"},
+        {"topic": "Git & GitHub", "duration": "1 week", "outcome": "Collaborate on code projects"}
+      ],
+      "intermediate": [
+        {"topic": "React.js Frontend", "duration": "4 weeks", "outcome": "Build dynamic UIs"},
+        {"topic": "Django REST Framework", "duration": "3 weeks", "outcome": "Build RESTful APIs"},
+        {"topic": "State Management", "duration": "2 weeks", "outcome": "Redux / Context API"},
+        {"topic": "Deployment (Vercel + Render)", "duration": "1 week", "outcome": "Deploy full stack apps"}
+      ],
+      "advanced": [
+        {"topic": "Docker & CI/CD", "duration": "2 weeks", "outcome": "Containerize and automate"},
+        {"topic": "System Design", "duration": "3 weeks", "outcome": "Architecture decisions"},
+        {"topic": "TypeScript Full Stack", "duration": "3 weeks", "outcome": "Type-safe end-to-end"},
+        {"topic": "Performance & Security", "duration": "2 weeks", "outcome": "Production-grade quality"}
+      ]
+    }
+  },
+  "Mobile App Developer": {
+    "description": "Build native and cross-platform mobile applications for iOS and Android.",
+    "avg_salary": "$80,000 - $145,000",
+    "growth_outlook": "High — mobile-first world continues to grow",
+    "key_skills": ["React Native / Flutter", "JavaScript/Dart", "Mobile UI/UX", "APIs", "App Store Publishing"],
+    "key_companies": ["Apple", "Google", "Instagram", "Uber", "Spotify"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "JavaScript Fundamentals", "duration": "3 weeks", "outcome": "Core language proficiency"},
+        {"topic": "React Basics", "duration": "2 weeks", "outcome": "Component-based thinking"},
+        {"topic": "React Native Setup", "duration": "2 weeks", "outcome": "Build first mobile app"},
+        {"topic": "Mobile UI Patterns", "duration": "1 week", "outcome": "Navigation, lists, forms"}
+      ],
+      "intermediate": [
+        {"topic": "React Native Navigation", "duration": "2 weeks", "outcome": "Multi-screen apps"},
+        {"topic": "API Integration", "duration": "2 weeks", "outcome": "Fetch remote data"},
+        {"topic": "Local Storage & State", "duration": "2 weeks", "outcome": "Persist data locally"},
+        {"topic": "Platform-Specific Code", "duration": "2 weeks", "outcome": "iOS/Android differences"}
+      ],
+      "advanced": [
+        {"topic": "Native Modules", "duration": "3 weeks", "outcome": "Bridge to native APIs"},
+        {"topic": "App Store Publishing", "duration": "2 weeks", "outcome": "Launch on Play/App Store"},
+        {"topic": "Performance Optimization", "duration": "2 weeks", "outcome": "60fps smooth apps"},
+        {"topic": "Push Notifications & Analytics", "duration": "2 weeks", "outcome": "Engage users"}
+      ]
+    }
+  },
+  "DevOps Engineer": {
+    "description": "Bridge development and operations — automate infrastructure, deployments, and monitoring.",
+    "avg_salary": "$90,000 - $160,000",
+    "growth_outlook": "Very High — essential role in modern engineering",
+    "key_skills": ["Docker", "Kubernetes", "CI/CD", "Linux", "Cloud (AWS/GCP/Azure)"],
+    "key_companies": ["Amazon", "Netflix", "Google", "HashiCorp", "Datadog"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Linux Fundamentals", "duration": "2 weeks", "outcome": "Navigate terminal, scripting basics"},
+        {"topic": "Git & Version Control", "duration": "1 week", "outcome": "Branching, merging, PRs"},
+        {"topic": "Networking Basics", "duration": "2 weeks", "outcome": "DNS, HTTP, TCP/IP"},
+        {"topic": "Python Scripting", "duration": "2 weeks", "outcome": "Automate tasks"}
+      ],
+      "intermediate": [
+        {"topic": "Docker", "duration": "3 weeks", "outcome": "Containerize applications"},
+        {"topic": "CI/CD Pipelines (GitHub Actions)", "duration": "2 weeks", "outcome": "Automated testing and deployment"},
+        {"topic": "Cloud Platform (AWS/GCP)", "duration": "4 weeks", "outcome": "Deploy to cloud infrastructure"},
+        {"topic": "Infrastructure as Code (Terraform)", "duration": "2 weeks", "outcome": "Manage infrastructure via code"}
+      ],
+      "advanced": [
+        {"topic": "Kubernetes", "duration": "4 weeks", "outcome": "Orchestrate container clusters"},
+        {"topic": "Monitoring (Prometheus, Grafana)", "duration": "2 weeks", "outcome": "Observe system health"},
+        {"topic": "Security (DevSecOps)", "duration": "2 weeks", "outcome": "Secure pipelines and deployments"},
+        {"topic": "Site Reliability Engineering", "duration": "3 weeks", "outcome": "SLOs, error budgets, incident response"}
+      ]
+    }
+  },
+  "Cloud Engineer": {
+    "description": "Design, implement, and manage cloud-based infrastructure and services.",
+    "avg_salary": "$95,000 - $165,000",
+    "growth_outlook": "Very High — cloud adoption accelerating globally",
+    "key_skills": ["AWS/GCP/Azure", "Terraform", "Networking", "Security", "Serverless"],
+    "key_companies": ["Amazon", "Microsoft", "Google", "Snowflake", "Cloudflare"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Cloud Computing Concepts", "duration": "1 week", "outcome": "Understand IaaS, PaaS, SaaS"},
+        {"topic": "AWS/GCP Free Tier", "duration": "3 weeks", "outcome": "Hands-on with cloud services"},
+        {"topic": "Linux & Networking", "duration": "2 weeks", "outcome": "Server management basics"},
+        {"topic": "Storage & Databases (S3, RDS)", "duration": "2 weeks", "outcome": "Cloud data management"}
+      ],
+      "intermediate": [
+        {"topic": "Infrastructure as Code", "duration": "3 weeks", "outcome": "Terraform / CloudFormation"},
+        {"topic": "Serverless (Lambda/Functions)", "duration": "2 weeks", "outcome": "Event-driven architecture"},
+        {"topic": "VPC & Network Design", "duration": "2 weeks", "outcome": "Secure cloud networking"},
+        {"topic": "CI/CD in Cloud", "duration": "2 weeks", "outcome": "Automated cloud deployments"}
+      ],
+      "advanced": [
+        {"topic": "Multi-Cloud Strategy", "duration": "3 weeks", "outcome": "Cross-cloud architecture"},
+        {"topic": "Cloud Security & Compliance", "duration": "3 weeks", "outcome": "IAM, encryption, audit"},
+        {"topic": "Cost Optimization", "duration": "2 weeks", "outcome": "Reduce cloud spending"},
+        {"topic": "Cloud Architecture Certification", "duration": "4 weeks", "outcome": "AWS SA / GCP ACE cert"}
+      ]
+    }
+  },
+  "Data Analyst": {
+    "description": "Analyze data to extract insights, create visualizations, and support business decisions.",
+    "avg_salary": "$60,000 - $110,000",
+    "growth_outlook": "High — data-driven decision making is mainstream",
+    "key_skills": ["SQL", "Python", "Excel", "Tableau/Power BI", "Statistics"],
+    "key_companies": ["Google", "McKinsey", "Deloitte", "Walmart", "Netflix"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Excel & Google Sheets", "duration": "1 week", "outcome": "Data manipulation and pivot tables"},
+        {"topic": "SQL Fundamentals", "duration": "3 weeks", "outcome": "Query databases confidently"},
+        {"topic": "Statistics Basics", "duration": "2 weeks", "outcome": "Mean, median, distributions"},
+        {"topic": "Python for Data (Pandas)", "duration": "3 weeks", "outcome": "Clean and transform data"}
+      ],
+      "intermediate": [
+        {"topic": "Data Visualization (Matplotlib, Seaborn)", "duration": "2 weeks", "outcome": "Create compelling charts"},
+        {"topic": "Tableau / Power BI", "duration": "3 weeks", "outcome": "Build interactive dashboards"},
+        {"topic": "Advanced SQL", "duration": "2 weeks", "outcome": "Window functions, CTEs"},
+        {"topic": "A/B Testing & Hypothesis Testing", "duration": "2 weeks", "outcome": "Statistical experimentation"}
+      ],
+      "advanced": [
+        {"topic": "Data Storytelling", "duration": "2 weeks", "outcome": "Present insights to stakeholders"},
+        {"topic": "Python Automation", "duration": "2 weeks", "outcome": "Automate reports and ETL"},
+        {"topic": "Predictive Analytics", "duration": "3 weeks", "outcome": "Forecast trends with models"},
+        {"topic": "Domain Expertise", "duration": "4 weeks", "outcome": "Specialize in industry vertical"}
+      ]
+    }
+  },
+  "Data Scientist": {
+    "description": "Apply statistical modeling and machine learning to solve complex business problems.",
+    "avg_salary": "$95,000 - $170,000",
+    "growth_outlook": "Very High — one of the fastest-growing tech roles",
+    "key_skills": ["Python", "Machine Learning", "Statistics", "SQL", "Deep Learning"],
+    "key_companies": ["Google", "Meta", "Netflix", "Airbnb", "OpenAI"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Python Programming", "duration": "3 weeks", "outcome": "Strong foundation in Python"},
+        {"topic": "Statistics & Probability", "duration": "3 weeks", "outcome": "Distributions, hypothesis testing"},
+        {"topic": "Pandas & NumPy", "duration": "2 weeks", "outcome": "Data manipulation mastery"},
+        {"topic": "Data Visualization", "duration": "2 weeks", "outcome": "Matplotlib, Seaborn charts"}
+      ],
+      "intermediate": [
+        {"topic": "Machine Learning (Scikit-Learn)", "duration": "4 weeks", "outcome": "Classification, regression, clustering"},
+        {"topic": "Feature Engineering", "duration": "2 weeks", "outcome": "Extract meaningful features"},
+        {"topic": "SQL for Data Science", "duration": "2 weeks", "outcome": "Complex analytical queries"},
+        {"topic": "Experiment Design", "duration": "2 weeks", "outcome": "A/B tests, causal inference"}
+      ],
+      "advanced": [
+        {"topic": "Deep Learning (TensorFlow/PyTorch)", "duration": "4 weeks", "outcome": "Neural networks, CNNs, NLP"},
+        {"topic": "MLOps & Model Deployment", "duration": "3 weeks", "outcome": "Serve models in production"},
+        {"topic": "Big Data (Spark)", "duration": "3 weeks", "outcome": "Process large-scale datasets"},
+        {"topic": "Research Paper Implementation", "duration": "3 weeks", "outcome": "Reproduce state-of-the-art research"}
+      ]
+    }
+  },
+  "ML Engineer": {
+    "description": "Build, train, optimize, and deploy machine learning models at scale.",
+    "avg_salary": "$100,000 - $180,000",
+    "growth_outlook": "Extremely High — AI adoption is accelerating",
+    "key_skills": ["Python", "TensorFlow/PyTorch", "MLOps", "Cloud ML", "Mathematics"],
+    "key_companies": ["Google DeepMind", "OpenAI", "Meta AI", "NVIDIA", "Tesla"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Python & OOP", "duration": "3 weeks", "outcome": "Clean, modular Python code"},
+        {"topic": "Linear Algebra & Calculus", "duration": "3 weeks", "outcome": "Math behind ML algorithms"},
+        {"topic": "Scikit-Learn Basics", "duration": "3 weeks", "outcome": "Train basic ML models"},
+        {"topic": "Git & Project Structure", "duration": "1 week", "outcome": "Reproducible ML projects"}
+      ],
+      "intermediate": [
+        {"topic": "Deep Learning Fundamentals", "duration": "4 weeks", "outcome": "Build neural networks"},
+        {"topic": "PyTorch / TensorFlow", "duration": "4 weeks", "outcome": "Framework proficiency"},
+        {"topic": "Model Evaluation & Tuning", "duration": "2 weeks", "outcome": "Cross-validation, hyperparameter tuning"},
+        {"topic": "Data Pipelines", "duration": "2 weeks", "outcome": "ETL for ML systems"}
+      ],
+      "advanced": [
+        {"topic": "MLOps (MLflow, Kubeflow)", "duration": "3 weeks", "outcome": "ML lifecycle management"},
+        {"topic": "Model Serving (TF Serving, FastAPI)", "duration": "2 weeks", "outcome": "Deploy models as APIs"},
+        {"topic": "Distributed Training", "duration": "3 weeks", "outcome": "Train on multiple GPUs"},
+        {"topic": "LLMs & Transformers", "duration": "4 weeks", "outcome": "Fine-tune language models"}
+      ]
+    }
+  },
+  "UI/UX Designer": {
+    "description": "Design intuitive, beautiful user interfaces backed by research and user testing.",
+    "avg_salary": "$70,000 - $130,000",
+    "growth_outlook": "High — user experience is a key differentiator",
+    "key_skills": ["Figma", "User Research", "Prototyping", "Design Systems", "HTML/CSS"],
+    "key_companies": ["Apple", "Airbnb", "Spotify", "Google", "Figma"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Design Principles", "duration": "2 weeks", "outcome": "Color theory, typography, layout"},
+        {"topic": "Figma Basics", "duration": "2 weeks", "outcome": "Create wireframes and mockups"},
+        {"topic": "User Research Methods", "duration": "2 weeks", "outcome": "Interviews, surveys, personas"},
+        {"topic": "HTML & CSS Fundamentals", "duration": "2 weeks", "outcome": "Implement your own designs"}
+      ],
+      "intermediate": [
+        {"topic": "Prototyping & Interaction Design", "duration": "3 weeks", "outcome": "Clickable prototypes"},
+        {"topic": "Design Systems", "duration": "2 weeks", "outcome": "Reusable component libraries"},
+        {"topic": "Usability Testing", "duration": "2 weeks", "outcome": "Test designs with real users"},
+        {"topic": "Responsive & Accessible Design", "duration": "2 weeks", "outcome": "WCAG compliance"}
+      ],
+      "advanced": [
+        {"topic": "Motion Design", "duration": "2 weeks", "outcome": "Micro-interactions, animations"},
+        {"topic": "Design Leadership", "duration": "3 weeks", "outcome": "Lead design sprints"},
+        {"topic": "Frontend Development (React)", "duration": "4 weeks", "outcome": "Build what you design"},
+        {"topic": "Portfolio & Case Studies", "duration": "2 weeks", "outcome": "Showcase your work"}
+      ]
+    }
+  },
+  "Cybersecurity Analyst": {
+    "description": "Protect organizations from cyber threats through monitoring, analysis, and incident response.",
+    "avg_salary": "$85,000 - $150,000",
+    "growth_outlook": "Very High — cybercrime costs growing 15% annually",
+    "key_skills": ["Network Security", "SIEM", "Penetration Testing", "Compliance", "Incident Response"],
+    "key_companies": ["CrowdStrike", "Palo Alto Networks", "IBM Security", "NSA", "Cisco"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Networking Fundamentals", "duration": "3 weeks", "outcome": "TCP/IP, DNS, firewalls"},
+        {"topic": "Linux Administration", "duration": "2 weeks", "outcome": "Command line proficiency"},
+        {"topic": "Security Concepts (CIA Triad)", "duration": "2 weeks", "outcome": "Core security principles"},
+        {"topic": "Common Threats & Attacks", "duration": "2 weeks", "outcome": "Phishing, malware, SQL injection"}
+      ],
+      "intermediate": [
+        {"topic": "Penetration Testing (Kali Linux)", "duration": "4 weeks", "outcome": "Ethical hacking basics"},
+        {"topic": "SIEM Tools (Splunk/ELK)", "duration": "3 weeks", "outcome": "Monitor security events"},
+        {"topic": "Vulnerability Assessment", "duration": "2 weeks", "outcome": "Scan and report vulnerabilities"},
+        {"topic": "Cryptography", "duration": "2 weeks", "outcome": "Encryption, hashing, PKI"}
+      ],
+      "advanced": [
+        {"topic": "Incident Response & Forensics", "duration": "3 weeks", "outcome": "Handle security breaches"},
+        {"topic": "Compliance (SOC 2, ISO 27001)", "duration": "2 weeks", "outcome": "Security frameworks"},
+        {"topic": "Cloud Security", "duration": "3 weeks", "outcome": "Secure cloud workloads"},
+        {"topic": "Security Certifications (CEH/CompTIA)", "duration": "6 weeks", "outcome": "Industry certification"}
+      ]
+    }
+  },
+  "QA / Test Engineer": {
+    "description": "Ensure software quality through manual testing, test automation, and quality processes.",
+    "avg_salary": "$65,000 - $120,000",
+    "growth_outlook": "Steady — quality assurance is fundamental",
+    "key_skills": ["Selenium", "Cypress", "API Testing", "Test Planning", "CI/CD"],
+    "key_companies": ["Google", "Microsoft", "Amazon", "Sauce Labs", "BrowserStack"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Software Testing Fundamentals", "duration": "2 weeks", "outcome": "Test types, SDLC, bug lifecycle"},
+        {"topic": "Manual Testing", "duration": "2 weeks", "outcome": "Write test cases, execute tests"},
+        {"topic": "Bug Tracking (Jira)", "duration": "1 week", "outcome": "Report and track defects"},
+        {"topic": "Basic Programming (Python/JS)", "duration": "3 weeks", "outcome": "Code foundation for automation"}
+      ],
+      "intermediate": [
+        {"topic": "Selenium / Cypress Automation", "duration": "4 weeks", "outcome": "Automate browser testing"},
+        {"topic": "API Testing (Postman, requests)", "duration": "2 weeks", "outcome": "Test REST APIs"},
+        {"topic": "Test Frameworks (pytest/Jest)", "duration": "2 weeks", "outcome": "Structured test suites"},
+        {"topic": "CI/CD Integration", "duration": "2 weeks", "outcome": "Run tests in pipeline"}
+      ],
+      "advanced": [
+        {"topic": "Performance Testing (JMeter)", "duration": "2 weeks", "outcome": "Load and stress testing"},
+        {"topic": "Security Testing Basics", "duration": "2 weeks", "outcome": "OWASP Top 10"},
+        {"topic": "Mobile Testing", "duration": "2 weeks", "outcome": "Appium / device testing"},
+        {"topic": "SDET Path", "duration": "4 weeks", "outcome": "Software Development Engineer in Test"}
+      ]
+    }
+  },
+  "Database Administrator": {
+    "description": "Design, manage, optimize, and secure organizational database systems.",
+    "avg_salary": "$75,000 - $135,000",
+    "growth_outlook": "Stable — data management remains critical",
+    "key_skills": ["SQL", "PostgreSQL/MySQL", "Performance Tuning", "Backup/Recovery", "Data Modeling"],
+    "key_companies": ["Oracle", "Amazon RDS", "Microsoft", "MongoDB", "Snowflake"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "SQL Mastery", "duration": "3 weeks", "outcome": "Complex queries, JOINs, subqueries"},
+        {"topic": "Database Design & Normalization", "duration": "2 weeks", "outcome": "Design efficient schemas"},
+        {"topic": "PostgreSQL / MySQL Setup", "duration": "2 weeks", "outcome": "Install, configure, manage"},
+        {"topic": "Data Types & Constraints", "duration": "1 week", "outcome": "Data integrity"}
+      ],
+      "intermediate": [
+        {"topic": "Query Optimization", "duration": "3 weeks", "outcome": "EXPLAIN plans, index strategy"},
+        {"topic": "Backup & Recovery", "duration": "2 weeks", "outcome": "Point-in-time recovery"},
+        {"topic": "Replication & High Availability", "duration": "2 weeks", "outcome": "Master-slave, failover"},
+        {"topic": "NoSQL (MongoDB/Redis)", "duration": "2 weeks", "outcome": "Document and key-value stores"}
+      ],
+      "advanced": [
+        {"topic": "Database Security", "duration": "2 weeks", "outcome": "Encryption, access control, audit"},
+        {"topic": "Cloud Databases (RDS, Aurora)", "duration": "3 weeks", "outcome": "Managed database services"},
+        {"topic": "Data Warehousing", "duration": "3 weeks", "outcome": "OLAP, star schema, ETL"},
+        {"topic": "Database Certification", "duration": "4 weeks", "outcome": "Oracle/AWS DB certification"}
+      ]
+    }
+  },
+  "System Administrator": {
+    "description": "Manage and maintain IT infrastructure — servers, networks, and enterprise systems.",
+    "avg_salary": "$65,000 - $115,000",
+    "growth_outlook": "Moderate — evolving towards cloud and DevOps",
+    "key_skills": ["Linux/Windows Server", "Networking", "Scripting", "Monitoring", "Virtualization"],
+    "key_companies": ["IBM", "HP Enterprise", "Dell", "Red Hat", "VMware"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Linux Fundamentals", "duration": "3 weeks", "outcome": "File system, permissions, processes"},
+        {"topic": "Windows Server Basics", "duration": "2 weeks", "outcome": "Active Directory, GPOs"},
+        {"topic": "Networking Essentials", "duration": "2 weeks", "outcome": "IP addressing, subnetting, DNS"},
+        {"topic": "Shell Scripting (Bash)", "duration": "2 weeks", "outcome": "Automate routine tasks"}
+      ],
+      "intermediate": [
+        {"topic": "Virtualization (VMware/Hyper-V)", "duration": "3 weeks", "outcome": "Create and manage VMs"},
+        {"topic": "Monitoring (Nagios/Zabbix)", "duration": "2 weeks", "outcome": "System health monitoring"},
+        {"topic": "Backup Strategies", "duration": "2 weeks", "outcome": "Disaster recovery planning"},
+        {"topic": "Security Hardening", "duration": "2 weeks", "outcome": "Secure server configurations"}
+      ],
+      "advanced": [
+        {"topic": "Cloud Administration", "duration": "4 weeks", "outcome": "AWS/Azure infrastructure"},
+        {"topic": "Configuration Management (Ansible)", "duration": "3 weeks", "outcome": "Automate server provisioning"},
+        {"topic": "Container Management", "duration": "2 weeks", "outcome": "Docker in enterprise environments"},
+        {"topic": "ITIL & Certification", "duration": "3 weeks", "outcome": "CompTIA Server+ / RHCSA"}
+      ]
+    }
+  },
+  "Network Engineer": {
+    "description": "Design, implement, and maintain computer networks for organizations.",
+    "avg_salary": "$70,000 - $130,000",
+    "growth_outlook": "Stable — essential infrastructure role",
+    "key_skills": ["Routing/Switching", "Cisco/Juniper", "TCP/IP", "Firewall Management", "CCNA/CCNP"],
+    "key_companies": ["Cisco", "Juniper Networks", "AT&T", "Verizon", "Cloudflare"],
+    "roadmap": {
+      "beginner": [
+        {"topic": "Networking Fundamentals", "duration": "3 weeks", "outcome": "OSI model, TCP/IP stack"},
+        {"topic": "IP Addressing & Subnetting", "duration": "2 weeks", "outcome": "Calculate subnets, CIDR"},
+        {"topic": "Switching & VLANs", "duration": "2 weeks", "outcome": "Configure Layer 2 networks"},
+        {"topic": "Packet Tracer / GNS3 Labs", "duration": "2 weeks", "outcome": "Hands-on network simulation"}
+      ],
+      "intermediate": [
+        {"topic": "Routing Protocols (OSPF, BGP)", "duration": "3 weeks", "outcome": "Configure dynamic routing"},
+        {"topic": "Firewall & ACLs", "duration": "2 weeks", "outcome": "Network security policies"},
+        {"topic": "VPN & Remote Access", "duration": "2 weeks", "outcome": "Secure remote connectivity"},
+        {"topic": "Wireless Networking", "duration": "2 weeks", "outcome": "WiFi standards, controllers"}
+      ],
+      "advanced": [
+        {"topic": "Network Automation (Python/Ansible)", "duration": "3 weeks", "outcome": "Automate network config"},
+        {"topic": "SD-WAN & SDN", "duration": "3 weeks", "outcome": "Software-defined networking"},
+        {"topic": "Network Monitoring (SNMP, NetFlow)", "duration": "2 weeks", "outcome": "Traffic analysis"},
+        {"topic": "CCNA / CCNP Certification", "duration": "6 weeks", "outcome": "Industry-recognized certification"}
+      ]
+    }
+  }
+}

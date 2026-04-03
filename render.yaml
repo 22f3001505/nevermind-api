@@ -1,0 +1,17 @@
+databases: []
+
+services:
+  - type: web
+    name: nevermind-api
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn backend.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120"
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: "3.12.3"

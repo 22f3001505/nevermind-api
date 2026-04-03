@@ -1,0 +1,19 @@
+# Core Django
+Django>=5.0,<6.0
+django-cors-headers>=4.3
+djangorestframework>=3.15
+
+# ML / Data Science
+scikit-learn>=1.2
+numpy>=1.26,<2.0
+scipy>=1.13
+joblib>=1.4
+pandas>=2.1
+
+# Utilities
+python-dotenv>=1.0
+whitenoise>=6.7
+sqlparse>=0.5
+
+# Production Server
+gunicorn>=22.0
