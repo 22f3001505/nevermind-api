@@ -21,17 +21,29 @@ def _load_roadmaps():
 def get_roadmap(career_name):
     """
     Get the complete roadmap for a career.
-
-    Args:
-        career_name: str, name of the career
-
-    Returns:
-        dict with keys: description, avg_salary, growth_outlook, key_skills,
-                        key_companies, roadmap (beginner/intermediate/advanced)
-        Returns None if career not found.
+    Supports fuzzy matching for slash variations:
+      "UI UX Designer" → "UI/UX Designer"
+      "QA  Test Engineer" → "QA / Test Engineer"
     """
+    import re
     roadmaps = _load_roadmaps()
-    return roadmaps.get(career_name)
+
+    # Try exact match first
+    if career_name in roadmaps:
+        return roadmaps[career_name]
+
+    # Fuzzy match: strip all slashes, collapse spaces, lowercase
+    def norm(s):
+        s = s.replace('/', ' ').replace('-', ' ').replace('_', ' ')
+        s = re.sub(r'\s+', ' ', s).strip().lower()
+        return s
+
+    input_norm = norm(career_name)
+    for key in roadmaps:
+        if norm(key) == input_norm:
+            return roadmaps[key]
+
+    return None
 
 
 def get_all_careers():
