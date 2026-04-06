@@ -1,7 +1,8 @@
 {
   "Frontend Developer": {
     "description": "Build user interfaces and interactive web experiences using modern JavaScript frameworks.",
-    "avg_salary": "$75,000 - $130,000",
+    "avg_salary": "₹3–25+ LPA",
+    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25+ LPA"},
     "growth_outlook": "High — demand growing 23% by 2031",
     "key_skills": ["JavaScript", "React/Vue/Angular", "HTML/CSS", "Responsive Design", "REST APIs"],
     "key_companies": ["Meta", "Airbnb", "Shopify", "Stripe", "Vercel"],
@@ -28,7 +29,8 @@
   },
   "Backend Developer": {
     "description": "Design and build server-side logic, APIs, and database architectures that power applications.",
-    "avg_salary": "$80,000 - $140,000",
+    "avg_salary": "₹4–40+ LPA",
+    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹8–18 LPA", "experienced": "₹18–40+ LPA"},
     "growth_outlook": "High — strong demand in enterprise and startup sectors",
     "key_skills": ["Python/Java/Node.js", "REST APIs", "SQL", "System Design", "Authentication"],
     "key_companies": ["Google", "Amazon", "Microsoft", "Stripe", "Atlassian"],
@@ -55,7 +57,8 @@
   },
   "Full Stack Developer": {
     "description": "Work across the entire technology stack — from UI to database to deployment.",
-    "avg_salary": "$85,000 - $150,000",
+    "avg_salary": "₹4.5–20+ LPA",
+    "salary_inr": {"fresher": "₹4.5–7 LPA", "mid": "₹7–12 LPA", "experienced": "₹12–20+ LPA"},
     "growth_outlook": "Very High — most versatile engineering role",
     "key_skills": ["JavaScript", "Python/Node.js", "React", "SQL", "DevOps Basics"],
     "key_companies": ["Startups", "Google", "Meta", "Spotify", "Uber"],
@@ -82,7 +85,8 @@
   },
   "Mobile App Developer": {
     "description": "Build native and cross-platform mobile applications for iOS and Android.",
-    "avg_salary": "$80,000 - $145,000",
+    "avg_salary": "₹5–40+ LPA",
+    "salary_inr": {"fresher": "₹5–10 LPA", "mid": "₹10–20 LPA", "experienced": "₹20–40+ LPA"},
     "growth_outlook": "High — mobile-first world continues to grow",
     "key_skills": ["React Native / Flutter", "JavaScript/Dart", "Mobile UI/UX", "APIs", "App Store Publishing"],
     "key_companies": ["Apple", "Google", "Instagram", "Uber", "Spotify"],
@@ -109,7 +113,8 @@
   },
   "DevOps Engineer": {
     "description": "Bridge development and operations — automate infrastructure, deployments, and monitoring.",
-    "avg_salary": "$90,000 - $160,000",
+    "avg_salary": "₹4–50+ LPA",
+    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹10–25 LPA", "experienced": "₹25–50+ LPA"},
     "growth_outlook": "Very High — essential role in modern engineering",
     "key_skills": ["Docker", "Kubernetes", "CI/CD", "Linux", "Cloud (AWS/GCP/Azure)"],
     "key_companies": ["Amazon", "Netflix", "Google", "HashiCorp", "Datadog"],
@@ -136,7 +141,8 @@
   },
   "Cloud Engineer": {
     "description": "Design, implement, and manage cloud-based infrastructure and services.",
-    "avg_salary": "$95,000 - $165,000",
+    "avg_salary": "₹6–60+ LPA",
+    "salary_inr": {"fresher": "₹6–12 LPA", "mid": "₹12–30 LPA", "experienced": "₹30–60+ LPA"},
     "growth_outlook": "Very High — cloud adoption accelerating globally",
     "key_skills": ["AWS/GCP/Azure", "Terraform", "Networking", "Security", "Serverless"],
     "key_companies": ["Amazon", "Microsoft", "Google", "Snowflake", "Cloudflare"],
@@ -163,7 +169,8 @@
   },
   "Data Analyst": {
     "description": "Analyze data to extract insights, create visualizations, and support business decisions.",
-    "avg_salary": "$60,000 - $110,000",
+    "avg_salary": "₹3–25 LPA",
+    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25 LPA"},
     "growth_outlook": "High — data-driven decision making is mainstream",
     "key_skills": ["SQL", "Python", "Excel", "Tableau/Power BI", "Statistics"],
     "key_companies": ["Google", "McKinsey", "Deloitte", "Walmart", "Netflix"],
@@ -190,7 +197,8 @@
   },
   "Data Scientist": {
     "description": "Apply statistical modeling and machine learning to solve complex business problems.",
-    "avg_salary": "$95,000 - $170,000",
+    "avg_salary": "₹6–60+ LPA",
+    "salary_inr": {"fresher": "₹6–12 LPA", "mid": "₹12–25 LPA", "experienced": "₹25–60+ LPA"},
     "growth_outlook": "Very High — one of the fastest-growing tech roles",
     "key_skills": ["Python", "Machine Learning", "Statistics", "SQL", "Deep Learning"],
     "key_companies": ["Google", "Meta", "Netflix", "Airbnb", "OpenAI"],
@@ -217,7 +225,8 @@
   },
   "ML Engineer": {
     "description": "Build, train, optimize, and deploy machine learning models at scale.",
-    "avg_salary": "$100,000 - $180,000",
+    "avg_salary": "₹8–70+ LPA",
+    "salary_inr": {"fresher": "₹8–15 LPA", "mid": "₹15–30 LPA", "experienced": "₹30–70+ LPA"},
     "growth_outlook": "Extremely High — AI adoption is accelerating",
     "key_skills": ["Python", "TensorFlow/PyTorch", "MLOps", "Cloud ML", "Mathematics"],
     "key_companies": ["Google DeepMind", "OpenAI", "Meta AI", "NVIDIA", "Tesla"],
@@ -244,7 +253,8 @@
   },
   "UI/UX Designer": {
     "description": "Design intuitive, beautiful user interfaces backed by research and user testing.",
-    "avg_salary": "$70,000 - $130,000",
+    "avg_salary": "₹3–30 LPA",
+    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–15 LPA", "experienced": "₹15–30 LPA"},
     "growth_outlook": "High — user experience is a key differentiator",
     "key_skills": ["Figma", "User Research", "Prototyping", "Design Systems", "HTML/CSS"],
     "key_companies": ["Apple", "Airbnb", "Spotify", "Google", "Figma"],
@@ -271,7 +281,8 @@
   },
   "Cybersecurity Analyst": {
     "description": "Protect organizations from cyber threats through monitoring, analysis, and incident response.",
-    "avg_salary": "$85,000 - $150,000",
+    "avg_salary": "₹5–50+ LPA",
+    "salary_inr": {"fresher": "₹5–10 LPA", "mid": "₹10–25 LPA", "experienced": "₹25–50+ LPA"},
     "growth_outlook": "Very High — cybercrime costs growing 15% annually",
     "key_skills": ["Network Security", "SIEM", "Penetration Testing", "Compliance", "Incident Response"],
     "key_companies": ["CrowdStrike", "Palo Alto Networks", "IBM Security", "NSA", "Cisco"],
@@ -298,7 +309,8 @@
   },
   "QA / Test Engineer": {
     "description": "Ensure software quality through manual testing, test automation, and quality processes.",
-    "avg_salary": "$65,000 - $120,000",
+    "avg_salary": "₹3–25 LPA",
+    "salary_inr": {"fresher": "₹3–5 LPA", "mid": "₹5–12 LPA", "experienced": "₹12–25 LPA"},
     "growth_outlook": "Steady — quality assurance is fundamental",
     "key_skills": ["Selenium", "Cypress", "API Testing", "Test Planning", "CI/CD"],
     "key_companies": ["Google", "Microsoft", "Amazon", "Sauce Labs", "BrowserStack"],
@@ -325,7 +337,8 @@
   },
   "Database Administrator": {
     "description": "Design, manage, optimize, and secure organizational database systems.",
-    "avg_salary": "$75,000 - $135,000",
+    "avg_salary": "₹4–35+ LPA",
+    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹8–18 LPA", "experienced": "₹18–35+ LPA"},
     "growth_outlook": "Stable — data management remains critical",
     "key_skills": ["SQL", "PostgreSQL/MySQL", "Performance Tuning", "Backup/Recovery", "Data Modeling"],
     "key_companies": ["Oracle", "Amazon RDS", "Microsoft", "MongoDB", "Snowflake"],
@@ -352,7 +365,8 @@
   },
   "System Administrator": {
     "description": "Manage and maintain IT infrastructure — servers, networks, and enterprise systems.",
-    "avg_salary": "$65,000 - $115,000",
+    "avg_salary": "₹3–25 LPA",
+    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25 LPA"},
     "growth_outlook": "Moderate — evolving towards cloud and DevOps",
     "key_skills": ["Linux/Windows Server", "Networking", "Scripting", "Monitoring", "Virtualization"],
     "key_companies": ["IBM", "HP Enterprise", "Dell", "Red Hat", "VMware"],
@@ -379,7 +393,8 @@
   },
   "Network Engineer": {
     "description": "Design, implement, and maintain computer networks for organizations.",
-    "avg_salary": "$70,000 - $130,000",
+    "avg_salary": "₹3–20 LPA",
+    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–20 LPA"},
     "growth_outlook": "Stable — essential infrastructure role",
     "key_skills": ["Routing/Switching", "Cisco/Juniper", "TCP/IP", "Firewall Management", "CCNA/CCNP"],
     "key_companies": ["Cisco", "Juniper Networks", "AT&T", "Verizon", "Cloudflare"],
