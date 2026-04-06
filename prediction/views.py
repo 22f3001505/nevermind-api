@@ -1,6 +1,7 @@
 """
 Never Mind — API Views (Production)
 Full error handling, health checks, quiz history, platform stats.
+Auth: signup, JWT login, progress tracking.
 """
 import json
 import os
@@ -9,13 +10,15 @@ import traceback
 
 from django.db.models import Count, Avg
 from django.utils import timezone
+from django.contrib.auth.models import User
 
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated, AllowAny
 
-from .models import QuizAttempt, UserSkillProfile, CareerResult
+from .models import QuizAttempt, UserSkillProfile, CareerResult, TopicProgress
 from .serializers import QuizSubmissionSerializer, QuizAttemptSerializer
 
 from utils.skill_engine import calculate_skills, get_skill_summary
@@ -363,3 +366,147 @@ class PlatformStatsView(APIView):
                 {"error": "Failed to load stats"},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
+
+
+class SignupView(APIView):
+    """POST /api/auth/signup/ — Register a new user."""
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        username = request.data.get("username", "").strip()
+        email = request.data.get("email", "").strip()
+        password = request.data.get("password", "")
+
+        if not username or not password:
+            return Response(
+                {"error": "Username and password are required"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        if len(password) < 6:
+            return Response(
+                {"error": "Password must be at least 6 characters"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        if User.objects.filter(username=username).exists():
+            return Response(
+                {"error": "Username already taken"},
+                status=status.HTTP_409_CONFLICT
+            )
+
+        user = User.objects.create_user(
+            username=username,
+            email=email,
+            password=password
+        )
+
+        # Generate JWT tokens
+        from rest_framework_simplejwt.tokens import RefreshToken
+        refresh = RefreshToken.for_user(user)
+
+        return Response({
+            "message": "Account created successfully",
+            "user": {"id": user.id, "username": user.username, "email": user.email},
+            "tokens": {
+                "access": str(refresh.access_token),
+                "refresh": str(refresh),
+            }
+        }, status=status.HTTP_201_CREATED)
+
+
+class UserProfileView(APIView):
+    """GET /api/auth/profile/ — Get current user info."""
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        user = request.user
+        progress_count = TopicProgress.objects.filter(user=user).count()
+        return Response({
+            "id": user.id,
+            "username": user.username,
+            "email": user.email,
+            "completed_topics": progress_count,
+        })
+
+
+class TopicProgressView(APIView):
+    """
+    GET  /api/progress/<career_slug>/ — Get completed topics for a career.
+    POST /api/progress/<career_slug>/ — Toggle a topic completion.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, career_slug):
+        career = career_slug.replace('-', ' ').replace('  ', ' ')
+        items = TopicProgress.objects.filter(
+            user=request.user, career__iexact=career
+        ).values_list('level', 'topic_index')
+
+        # Also try fuzzy match
+        if not items.exists():
+            import re
+            all_progress = TopicProgress.objects.filter(user=request.user)
+            for p in all_progress:
+                norm_p = re.sub(r'[\s/\-]+', ' ', p.career).strip().lower()
+                norm_c = re.sub(r'[\s/\-]+', ' ', career).strip().lower()
+                if norm_p == norm_c:
+                    career = p.career
+                    items = TopicProgress.objects.filter(
+                        user=request.user, career=career
+                    ).values_list('level', 'topic_index')
+                    break
+
+        completed = [f"{level}_{idx}" for level, idx in items]
+        return Response({"career": career, "completed": completed})
+
+    def post(self, request, career_slug):
+        career = career_slug.replace('-', ' ').replace('  ', ' ')
+        level = request.data.get('level')
+        topic_index = request.data.get('topic_index')
+        completed = request.data.get('completed', True)
+
+        if level is None or topic_index is None:
+            return Response(
+                {"error": "level and topic_index are required"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        # Resolve actual career name from roadmaps
+        from utils.roadmap_engine import get_roadmap, get_all_careers
+        import re
+        actual_career = career
+        for c in get_all_careers():
+            norm_c = re.sub(r'[\s/\-]+', ' ', c['name']).strip().lower()
+            norm_input = re.sub(r'[\s/\-]+', ' ', career).strip().lower()
+            if norm_c == norm_input:
+                actual_career = c['name']
+                break
+
+        if completed:
+            TopicProgress.objects.update_or_create(
+                user=request.user,
+                career=actual_career,
+                level=level,
+                topic_index=topic_index,
+                defaults={'completed': True}
+            )
+        else:
+            TopicProgress.objects.filter(
+                user=request.user,
+                career=actual_career,
+                level=level,
+                topic_index=topic_index
+            ).delete()
+
+        # Return updated progress
+        items = TopicProgress.objects.filter(
+            user=request.user, career=actual_career
+        ).values_list('level', 'topic_index')
+        completed_list = [f"{l}_{i}" for l, i in items]
+
+        return Response({
+            "career": actual_career,
+            "completed": completed_list,
+            "total_completed": len(completed_list)
+        })

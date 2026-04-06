@@ -69,3 +69,22 @@ class CareerResult(models.Model):
 
     def __str__(self):
         return f"Results for Quiz #{self.quiz_attempt_id}"
+
+
+class TopicProgress(models.Model):
+    """Tracks user progress on roadmap topics (checkboxes)."""
+    user = models.ForeignKey("auth.User", on_delete=models.CASCADE, related_name="progress")
+    career = models.CharField(max_length=100, db_index=True)
+    level = models.CharField(max_length=20)  # beginner, intermediate, advanced
+    topic_index = models.IntegerField()  # 0-based index within level
+    completed = models.BooleanField(default=True)
+    completed_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ("user", "career", "level", "topic_index")
+        indexes = [
+            models.Index(fields=["user", "career"]),
+        ]
+
+    def __str__(self):
+        return f"{self.user.username} - {self.career} [{self.level}][{self.topic_index}]"
