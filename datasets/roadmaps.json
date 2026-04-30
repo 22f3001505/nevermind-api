@@ -1,421 +1,1561 @@
 {
   "Frontend Developer": {
     "description": "Build user interfaces and interactive web experiences using modern JavaScript frameworks.",
-    "avg_salary": "₹3–25+ LPA",
-    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25+ LPA"},
-    "growth_outlook": "High — demand growing 23% by 2031",
-    "key_skills": ["JavaScript", "React/Vue/Angular", "HTML/CSS", "Responsive Design", "REST APIs"],
-    "key_companies": ["Meta", "Airbnb", "Shopify", "Stripe", "Vercel"],
+    "avg_salary": "Rs.3-25+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-6 LPA",
+      "mid": "Rs.6-12 LPA",
+      "experienced": "Rs.12-25+ LPA"
+    },
+    "growth_outlook": "High - demand growing 23% by 2031",
+    "key_skills": [
+      "JavaScript",
+      "React/Vue/Angular",
+      "HTML/CSS",
+      "Responsive Design",
+      "REST APIs"
+    ],
+    "key_companies": [
+      "Meta",
+      "Airbnb",
+      "Shopify",
+      "Stripe",
+      "Vercel"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "HTML5 Fundamentals", "duration": "1 week", "outcome": "Build semantic web pages", "youtube": "https://youtu.be/pQN-pnXPaVg?si=lUBogkQQcGjddQc0"},
-        {"topic": "CSS3 & Flexbox/Grid", "duration": "2 weeks", "outcome": "Create responsive layouts", "youtube": "https://www.youtube.com/watch?v=a_iQb1lnAEQ"},
-        {"topic": "JavaScript Basics", "duration": "3 weeks", "outcome": "Understand variables, functions, DOM", "youtube": "https://www.youtube.com/c/Freecodecamp"},
-        {"topic": "Version Control (Git)", "duration": "1 week", "outcome": "Track code changes, use GitHub", "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"}
+        {
+          "topic": "HTML5 Fundamentals",
+          "duration": "1 week",
+          "outcome": "Build semantic web pages",
+          "youtube": "https://youtu.be/pQN-pnXPaVg?si=lUBogkQQcGjddQc0"
+        },
+        {
+          "topic": "CSS3 & Flexbox/Grid",
+          "duration": "2 weeks",
+          "outcome": "Create responsive layouts",
+          "youtube": "https://www.youtube.com/watch?v=a_iQb1lnAEQ"
+        },
+        {
+          "topic": "JavaScript Basics",
+          "duration": "3 weeks",
+          "outcome": "Understand variables, functions, DOM",
+          "youtube": "https://www.youtube.com/c/Freecodecamp"
+        },
+        {
+          "topic": "Version Control (Git)",
+          "duration": "1 week",
+          "outcome": "Track code changes, use GitHub",
+          "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+        }
       ],
       "intermediate": [
-        {"topic": "React.js", "duration": "4 weeks", "outcome": "Build component-based SPAs", "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"},
-        {"topic": "State Management (Redux)", "duration": "2 weeks", "outcome": "Manage complex app state", "youtube": "https://www.youtube.com/watch?v=CVpUuw9XSjY"},
-        {"topic": "REST API Integration", "duration": "2 weeks", "outcome": "Fetch and display backend data", "youtube": "https://www.youtube.com/watch?v=Oive66jrwBs"},
-        {"topic": "CSS Frameworks (Tailwind)", "duration": "1 week", "outcome": "Rapid UI prototyping", "youtube": "https://www.youtube.com/watch?v=dFgzHOX84xQ"}
+        {
+          "topic": "React.js",
+          "duration": "4 weeks",
+          "outcome": "Build component-based SPAs",
+          "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+        },
+        {
+          "topic": "State Management (Redux)",
+          "duration": "2 weeks",
+          "outcome": "Manage complex app state",
+          "youtube": "https://www.youtube.com/watch?v=CVpUuw9XSjY"
+        },
+        {
+          "topic": "REST API Integration",
+          "duration": "2 weeks",
+          "outcome": "Fetch and display backend data",
+          "youtube": "https://www.youtube.com/watch?v=Oive66jrwBs"
+        },
+        {
+          "topic": "CSS Frameworks (Tailwind)",
+          "duration": "1 week",
+          "outcome": "Rapid UI prototyping",
+          "youtube": "https://www.youtube.com/watch?v=dFgzHOX84xQ"
+        }
       ],
       "advanced": [
-        {"topic": "Performance Optimization", "duration": "2 weeks", "outcome": "Lighthouse score 90+", "youtube": "https://www.youtube.com/watch?v=5fLW5Q5ODiE"},
-        {"topic": "Testing (Jest, Cypress)", "duration": "2 weeks", "outcome": "Write unit and E2E tests", "youtube": "https://www.youtube.com/watch?v=7r4xVDI2vho"},
-        {"topic": "TypeScript", "duration": "3 weeks", "outcome": "Type-safe JavaScript development", "youtube": "https://www.youtube.com/watch?v=30LWjhZzg50"},
-        {"topic": "Next.js / SSR", "duration": "3 weeks", "outcome": "Build production-grade apps", "youtube": "https://www.youtube.com/watch?v=wm5gMKuwSYk"}
+        {
+          "topic": "Performance Optimization",
+          "duration": "2 weeks",
+          "outcome": "Lighthouse score 90+",
+          "youtube": "https://www.youtube.com/watch?v=5fLW5Q5ODiE"
+        },
+        {
+          "topic": "Testing (Jest, Cypress)",
+          "duration": "2 weeks",
+          "outcome": "Write unit and E2E tests",
+          "youtube": "https://www.youtube.com/watch?v=7r4xVDI2vho"
+        },
+        {
+          "topic": "TypeScript",
+          "duration": "3 weeks",
+          "outcome": "Type-safe JavaScript development",
+          "youtube": "https://www.youtube.com/watch?v=30LWjhZzg50"
+        },
+        {
+          "topic": "Next.js / SSR",
+          "duration": "3 weeks",
+          "outcome": "Build production-grade apps",
+          "youtube": "https://www.youtube.com/watch?v=wm5gMKuwSYk"
+        }
       ]
     }
   },
   "Backend Developer": {
     "description": "Design and build server-side logic, APIs, and database architectures that power applications.",
-    "avg_salary": "₹4–40+ LPA",
-    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹8–18 LPA", "experienced": "₹18–40+ LPA"},
-    "growth_outlook": "High — strong demand in enterprise and startup sectors",
-    "key_skills": ["Python/Java/Node.js", "REST APIs", "SQL", "System Design", "Authentication"],
-    "key_companies": ["Google", "Amazon", "Microsoft", "Stripe", "Atlassian"],
+    "avg_salary": "Rs.4-40+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.4-8 LPA",
+      "mid": "Rs.8-18 LPA",
+      "experienced": "Rs.18-40+ LPA"
+    },
+    "growth_outlook": "High - strong demand in enterprise and startup sectors",
+    "key_skills": [
+      "Python/Java/Node.js",
+      "REST APIs",
+      "SQL",
+      "System Design",
+      "Authentication"
+    ],
+    "key_companies": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Stripe",
+      "Atlassian"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Python Fundamentals", "duration": "2 weeks", "outcome": "Write Python scripts confidently", "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"},
-        {"topic": "SQL & Database Basics", "duration": "2 weeks", "outcome": "CRUD operations, schema design", "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"},
-        {"topic": "HTTP & REST Concepts", "duration": "1 week", "outcome": "Understand request/response cycle", "youtube": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"},
-        {"topic": "Django / Flask Basics", "duration": "3 weeks", "outcome": "Build your first REST API", "youtube": "https://www.youtube.com/watch?v=F5mRW0jo-U4"}
+        {
+          "topic": "Python Fundamentals",
+          "duration": "2 weeks",
+          "outcome": "Write Python scripts confidently",
+          "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "topic": "SQL & Database Basics",
+          "duration": "2 weeks",
+          "outcome": "CRUD operations, schema design",
+          "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "topic": "HTTP & REST Concepts",
+          "duration": "1 week",
+          "outcome": "Understand request/response cycle",
+          "youtube": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+        },
+        {
+          "topic": "Django / Flask Basics",
+          "duration": "3 weeks",
+          "outcome": "Build your first REST API",
+          "youtube": "https://www.youtube.com/watch?v=F5mRW0jo-U4"
+        }
       ],
       "intermediate": [
-        {"topic": "Django REST Framework", "duration": "3 weeks", "outcome": "Build production APIs with DRF", "youtube": "https://www.youtube.com/watch?v=c708Nf0cHrs"},
-        {"topic": "Authentication & Authorization", "duration": "2 weeks", "outcome": "JWT, OAuth, session-based auth", "youtube": "https://www.youtube.com/watch?v=7Q17ubqLfaM"},
-        {"topic": "Database Optimization", "duration": "2 weeks", "outcome": "Query optimization, indexing", "youtube": "https://www.youtube.com/watch?v=OtVnQ9c1C6E"},
-        {"topic": "Caching (Redis)", "duration": "1 week", "outcome": "Speed up API responses", "youtube": "https://www.youtube.com/watch?v=Hbt56gFj998"}
+        {
+          "topic": "Django REST Framework",
+          "duration": "3 weeks",
+          "outcome": "Build production APIs with DRF",
+          "youtube": "https://www.youtube.com/watch?v=c708Nf0cHrs"
+        },
+        {
+          "topic": "Authentication & Authorization",
+          "duration": "2 weeks",
+          "outcome": "JWT, OAuth, session-based auth",
+          "youtube": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
+        },
+        {
+          "topic": "Database Optimization",
+          "duration": "2 weeks",
+          "outcome": "Query optimization, indexing",
+          "youtube": "https://www.youtube.com/watch?v=OtVnQ9c1C6E"
+        },
+        {
+          "topic": "Caching (Redis)",
+          "duration": "1 week",
+          "outcome": "Speed up API responses",
+          "youtube": "https://www.youtube.com/watch?v=Hbt56gFj998"
+        }
       ],
       "advanced": [
-        {"topic": "System Design", "duration": "4 weeks", "outcome": "Design scalable distributed systems", "youtube": "https://www.youtube.com/watch?v=UzLMhqg3_Wc"},
-        {"topic": "Microservices Architecture", "duration": "3 weeks", "outcome": "Build loosely-coupled services", "youtube": "https://www.youtube.com/watch?v=rv4LlmLmVWk"},
-        {"topic": "Message Queues (RabbitMQ/Kafka)", "duration": "2 weeks", "outcome": "Async event processing", "youtube": "https://www.youtube.com/watch?v=Ch5VhJzaoaI"},
-        {"topic": "Containerization (Docker)", "duration": "2 weeks", "outcome": "Package and deploy applications", "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"}
+        {
+          "topic": "System Design",
+          "duration": "4 weeks",
+          "outcome": "Design scalable distributed systems",
+          "youtube": "https://www.youtube.com/watch?v=UzLMhqg3_Wc"
+        },
+        {
+          "topic": "Microservices Architecture",
+          "duration": "3 weeks",
+          "outcome": "Build loosely-coupled services",
+          "youtube": "https://www.youtube.com/watch?v=rv4LlmLmVWk"
+        },
+        {
+          "topic": "Message Queues (RabbitMQ/Kafka)",
+          "duration": "2 weeks",
+          "outcome": "Async event processing",
+          "youtube": "https://www.youtube.com/watch?v=Ch5VhJzaoaI"
+        },
+        {
+          "topic": "Containerization (Docker)",
+          "duration": "2 weeks",
+          "outcome": "Package and deploy applications",
+          "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+        }
       ]
     }
   },
   "Full Stack Developer": {
-    "description": "Work across the entire technology stack — from UI to database to deployment.",
-    "avg_salary": "₹4.5–20+ LPA",
-    "salary_inr": {"fresher": "₹4.5–7 LPA", "mid": "₹7–12 LPA", "experienced": "₹12–20+ LPA"},
-    "growth_outlook": "Very High — most versatile engineering role",
-    "key_skills": ["JavaScript", "Python/Node.js", "React", "SQL", "DevOps Basics"],
-    "key_companies": ["Startups", "Google", "Meta", "Spotify", "Uber"],
+    "description": "Work across the entire technology stack - from UI to database to deployment.",
+    "avg_salary": "Rs.4.5-20+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.4.5-7 LPA",
+      "mid": "Rs.7-12 LPA",
+      "experienced": "Rs.12-20+ LPA"
+    },
+    "growth_outlook": "Very High - most versatile engineering role",
+    "key_skills": [
+      "JavaScript",
+      "Python/Node.js",
+      "React",
+      "SQL",
+      "DevOps Basics"
+    ],
+    "key_companies": [
+      "Startups",
+      "Google",
+      "Meta",
+      "Spotify",
+      "Uber"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "HTML, CSS, JavaScript", "duration": "4 weeks", "outcome": "Build complete web pages", "youtube": "https://youtu.be/nu_pCVPKzTk?si=OqGseuUbvY3kxMS5"},
-        {"topic": "Python & Django", "duration": "3 weeks", "outcome": "Create backend APIs", "youtube": "https://www.youtube.com/watch?v=o0XbHvKxw7Y"},
-        {"topic": "SQL Fundamentals", "duration": "2 weeks", "outcome": "Database CRUD operations", "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"},
-        {"topic": "Git & GitHub", "duration": "1 week", "outcome": "Collaborate on code projects", "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"}
+        {
+          "topic": "HTML, CSS, JavaScript",
+          "duration": "4 weeks",
+          "outcome": "Build complete web pages",
+          "youtube": "https://youtu.be/nu_pCVPKzTk?si=OqGseuUbvY3kxMS5"
+        },
+        {
+          "topic": "Python & Django",
+          "duration": "3 weeks",
+          "outcome": "Create backend APIs",
+          "youtube": "https://www.youtube.com/watch?v=o0XbHvKxw7Y"
+        },
+        {
+          "topic": "SQL Fundamentals",
+          "duration": "2 weeks",
+          "outcome": "Database CRUD operations",
+          "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "topic": "Git & GitHub",
+          "duration": "1 week",
+          "outcome": "Collaborate on code projects",
+          "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+        }
       ],
       "intermediate": [
-        {"topic": "React.js Frontend", "duration": "4 weeks", "outcome": "Build dynamic UIs", "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"},
-        {"topic": "Django REST Framework", "duration": "3 weeks", "outcome": "Build RESTful APIs", "youtube": "https://youtu.be/tujhGdn1EMI?si=yKERZVQCc6CQm9mC"},
-        {"topic": "State Management", "duration": "2 weeks", "outcome": "Redux / Context API", "youtube": "https://www.youtube.com/watch?v=CVpUuw9XSjY"},
-        {"topic": "Deployment (Vercel + Render)", "duration": "1 week", "outcome": "Deploy full stack apps", "youtube": "https://www.youtube.com/watch?v=71wSzpLyW9k"}
+        {
+          "topic": "React.js Frontend",
+          "duration": "4 weeks",
+          "outcome": "Build dynamic UIs",
+          "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+        },
+        {
+          "topic": "Django REST Framework",
+          "duration": "3 weeks",
+          "outcome": "Build RESTful APIs",
+          "youtube": "https://youtu.be/tujhGdn1EMI?si=yKERZVQCc6CQm9mC"
+        },
+        {
+          "topic": "State Management",
+          "duration": "2 weeks",
+          "outcome": "Redux / Context API",
+          "youtube": "https://www.youtube.com/watch?v=CVpUuw9XSjY"
+        },
+        {
+          "topic": "Deployment (Vercel + Render)",
+          "duration": "1 week",
+          "outcome": "Deploy full stack apps",
+          "youtube": "https://www.youtube.com/watch?v=71wSzpLyW9k"
+        }
       ],
       "advanced": [
-        {"topic": "Docker & CI/CD", "duration": "2 weeks", "outcome": "Containerize and automate", "youtube": "https://www.youtube.com/watch?v=3c-iBn73dDE"},
-        {"topic": "System Design", "duration": "3 weeks", "outcome": "Architecture decisions", "youtube": "https://www.youtube.com/watch?v=UzLMhqg3_Wc"},
-        {"topic": "TypeScript Full Stack", "duration": "3 weeks", "outcome": "Type-safe end-to-end", "youtube": "https://www.youtube.com/watch?v=30LWjhZzg50"},
-        {"topic": "Performance & Security", "duration": "2 weeks", "outcome": "Production-grade quality", "youtube": "https://www.youtube.com/watch?v=5fLW5Q5ODiE"}
+        {
+          "topic": "Docker & CI/CD",
+          "duration": "2 weeks",
+          "outcome": "Containerize and automate",
+          "youtube": "https://www.youtube.com/watch?v=3c-iBn73dDE"
+        },
+        {
+          "topic": "System Design",
+          "duration": "3 weeks",
+          "outcome": "Architecture decisions",
+          "youtube": "https://www.youtube.com/watch?v=UzLMhqg3_Wc"
+        },
+        {
+          "topic": "TypeScript Full Stack",
+          "duration": "3 weeks",
+          "outcome": "Type-safe end-to-end",
+          "youtube": "https://www.youtube.com/watch?v=30LWjhZzg50"
+        },
+        {
+          "topic": "Performance & Security",
+          "duration": "2 weeks",
+          "outcome": "Production-grade quality",
+          "youtube": "https://www.youtube.com/watch?v=5fLW5Q5ODiE"
+        }
       ]
     }
   },
   "Mobile App Developer": {
     "description": "Build native and cross-platform mobile applications for iOS and Android.",
-    "avg_salary": "₹5–40+ LPA",
-    "salary_inr": {"fresher": "₹5–10 LPA", "mid": "₹10–20 LPA", "experienced": "₹20–40+ LPA"},
-    "growth_outlook": "High — mobile-first world continues to grow",
-    "key_skills": ["React Native / Flutter", "JavaScript/Dart", "Mobile UI/UX", "APIs", "App Store Publishing"],
-    "key_companies": ["Apple", "Google", "Instagram", "Uber", "Spotify"],
+    "avg_salary": "Rs.5-40+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.5-10 LPA",
+      "mid": "Rs.10-20 LPA",
+      "experienced": "Rs.20-40+ LPA"
+    },
+    "growth_outlook": "High - mobile-first world continues to grow",
+    "key_skills": [
+      "React Native / Flutter",
+      "JavaScript/Dart",
+      "Mobile UI/UX",
+      "APIs",
+      "App Store Publishing"
+    ],
+    "key_companies": [
+      "Apple",
+      "Google",
+      "Instagram",
+      "Uber",
+      "Spotify"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "JavaScript Fundamentals", "duration": "3 weeks", "outcome": "Core language proficiency", "youtube": "https://www.youtube.com/watch?v=PkZNo7MFNFg"},
-        {"topic": "React Basics", "duration": "2 weeks", "outcome": "Component-based thinking", "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"},
-        {"topic": "React Native Setup", "duration": "2 weeks", "outcome": "Build first mobile app", "youtube": "https://www.youtube.com/watch?v=0-S5a0eXPoc"},
-        {"topic": "Mobile UI Patterns", "duration": "1 week", "outcome": "Navigation, lists, forms", "youtube": "https://www.youtube.com/watch?v=Hf4MJH0jDb4"}
+        {
+          "topic": "JavaScript Fundamentals",
+          "duration": "3 weeks",
+          "outcome": "Core language proficiency",
+          "youtube": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+        },
+        {
+          "topic": "React Basics",
+          "duration": "2 weeks",
+          "outcome": "Component-based thinking",
+          "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+        },
+        {
+          "topic": "React Native Setup",
+          "duration": "2 weeks",
+          "outcome": "Build first mobile app",
+          "youtube": "https://www.youtube.com/watch?v=0-S5a0eXPoc"
+        },
+        {
+          "topic": "Mobile UI Patterns",
+          "duration": "1 week",
+          "outcome": "Navigation, lists, forms",
+          "youtube": "https://www.youtube.com/watch?v=Hf4MJH0jDb4"
+        }
       ],
       "intermediate": [
-        {"topic": "React Native Navigation", "duration": "2 weeks", "outcome": "Multi-screen apps", "youtube": "https://www.youtube.com/watch?v=nQVCkqvU1uE"},
-        {"topic": "API Integration", "duration": "2 weeks", "outcome": "Fetch remote data", "youtube": "https://www.youtube.com/watch?v=Oe421EPjeBE"},
-        {"topic": "Local Storage & State", "duration": "2 weeks", "outcome": "Persist data locally", "youtube": "https://www.youtube.com/watch?v=GGo3MVBFr1A"},
-        {"topic": "Platform-Specific Code", "duration": "2 weeks", "outcome": "iOS/Android differences", "youtube": "https://www.youtube.com/watch?v=EJy0qQmN4aA"}
+        {
+          "topic": "React Native Navigation",
+          "duration": "2 weeks",
+          "outcome": "Multi-screen apps",
+          "youtube": "https://www.youtube.com/watch?v=nQVCkqvU1uE"
+        },
+        {
+          "topic": "API Integration",
+          "duration": "2 weeks",
+          "outcome": "Fetch remote data",
+          "youtube": "https://www.youtube.com/watch?v=Oe421EPjeBE"
+        },
+        {
+          "topic": "Local Storage & State",
+          "duration": "2 weeks",
+          "outcome": "Persist data locally",
+          "youtube": "https://www.youtube.com/watch?v=GGo3MVBFr1A"
+        },
+        {
+          "topic": "Platform-Specific Code",
+          "duration": "2 weeks",
+          "outcome": "iOS/Android differences",
+          "youtube": "https://www.youtube.com/watch?v=EJy0qQmN4aA"
+        }
       ],
       "advanced": [
-        {"topic": "Native Modules", "duration": "3 weeks", "outcome": "Bridge to native APIs", "youtube": "https://www.youtube.com/watch?v=F9UC9DY-vIU"},
-        {"topic": "App Store Publishing", "duration": "2 weeks", "outcome": "Launch on Play/App Store", "youtube": "https://www.youtube.com/watch?v=0-S5a0eXPoc&t=6000s"},
-        {"topic": "Performance Optimization", "duration": "2 weeks", "outcome": "60fps smooth apps", "youtube": "https://www.youtube.com/watch?v=0MlT74erp60"},
-        {"topic": "Push Notifications & Analytics", "duration": "2 weeks", "outcome": "Engage users", "youtube": "https://www.youtube.com/watch?v=m85dR0nqk8g"}
+        {
+          "topic": "Native Modules",
+          "duration": "3 weeks",
+          "outcome": "Bridge to native APIs",
+          "youtube": "https://www.youtube.com/watch?v=F9UC9DY-vIU"
+        },
+        {
+          "topic": "App Store Publishing",
+          "duration": "2 weeks",
+          "outcome": "Launch on Play/App Store",
+          "youtube": "https://www.youtube.com/watch?v=0-S5a0eXPoc&t=6000s"
+        },
+        {
+          "topic": "Performance Optimization",
+          "duration": "2 weeks",
+          "outcome": "60fps smooth apps",
+          "youtube": "https://www.youtube.com/watch?v=0MlT74erp60"
+        },
+        {
+          "topic": "Push Notifications & Analytics",
+          "duration": "2 weeks",
+          "outcome": "Engage users",
+          "youtube": "https://www.youtube.com/watch?v=m85dR0nqk8g"
+        }
       ]
     }
   },
   "DevOps Engineer": {
-    "description": "Bridge development and operations — automate infrastructure, deployments, and monitoring.",
-    "avg_salary": "₹4–50+ LPA",
-    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹10–25 LPA", "experienced": "₹25–50+ LPA"},
-    "growth_outlook": "Very High — essential role in modern engineering",
-    "key_skills": ["Docker", "Kubernetes", "CI/CD", "Linux", "Cloud (AWS/GCP/Azure)"],
-    "key_companies": ["Amazon", "Netflix", "Google", "HashiCorp", "Datadog"],
+    "description": "Bridge development and operations - automate infrastructure, deployments, and monitoring.",
+    "avg_salary": "Rs.4-50+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.4-8 LPA",
+      "mid": "Rs.10-25 LPA",
+      "experienced": "Rs.25-50+ LPA"
+    },
+    "growth_outlook": "Very High - essential role in modern engineering",
+    "key_skills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Linux",
+      "Cloud (AWS/GCP/Azure)"
+    ],
+    "key_companies": [
+      "Amazon",
+      "Netflix",
+      "Google",
+      "HashiCorp",
+      "Datadog"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Linux Fundamentals", "duration": "2 weeks", "outcome": "Navigate terminal, scripting basics", "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"},
-        {"topic": "Git & Version Control", "duration": "1 week", "outcome": "Branching, merging, PRs", "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"},
-        {"topic": "Networking Basics", "duration": "2 weeks", "outcome": "DNS, HTTP, TCP/IP", "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
-        {"topic": "Python Scripting", "duration": "2 weeks", "outcome": "Automate tasks", "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"}
+        {
+          "topic": "Linux Fundamentals",
+          "duration": "2 weeks",
+          "outcome": "Navigate terminal, scripting basics",
+          "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"
+        },
+        {
+          "topic": "Git & Version Control",
+          "duration": "1 week",
+          "outcome": "Branching, merging, PRs",
+          "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+        },
+        {
+          "topic": "Networking Basics",
+          "duration": "2 weeks",
+          "outcome": "DNS, HTTP, TCP/IP",
+          "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "topic": "Python Scripting",
+          "duration": "2 weeks",
+          "outcome": "Automate tasks",
+          "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        }
       ],
       "intermediate": [
-        {"topic": "Docker", "duration": "3 weeks", "outcome": "Containerize applications", "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"},
-        {"topic": "CI/CD Pipelines (GitHub Actions)", "duration": "2 weeks", "outcome": "Automated testing and deployment", "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"},
-        {"topic": "Cloud Platform (AWS/GCP)", "duration": "4 weeks", "outcome": "Deploy to cloud infrastructure", "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"},
-        {"topic": "Infrastructure as Code (Terraform)", "duration": "2 weeks", "outcome": "Manage infrastructure via code", "youtube": "https://www.youtube.com/watch?v=7xngnjfIlK4"}
+        {
+          "topic": "Docker",
+          "duration": "3 weeks",
+          "outcome": "Containerize applications",
+          "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+        },
+        {
+          "topic": "CI/CD Pipelines (GitHub Actions)",
+          "duration": "2 weeks",
+          "outcome": "Automated testing and deployment",
+          "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+        },
+        {
+          "topic": "Cloud Platform (AWS/GCP)",
+          "duration": "4 weeks",
+          "outcome": "Deploy to cloud infrastructure",
+          "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"
+        },
+        {
+          "topic": "Infrastructure as Code (Terraform)",
+          "duration": "2 weeks",
+          "outcome": "Manage infrastructure via code",
+          "youtube": "https://www.youtube.com/watch?v=7xngnjfIlK4"
+        }
       ],
       "advanced": [
-        {"topic": "Kubernetes", "duration": "4 weeks", "outcome": "Orchestrate container clusters", "youtube": "https://www.youtube.com/watch?v=X48VuDVv0do"},
-        {"topic": "Monitoring (Prometheus, Grafana)", "duration": "2 weeks", "outcome": "Observe system health", "youtube": "https://www.youtube.com/watch?v=h4Sl21AKiDg"},
-        {"topic": "Security (DevSecOps)", "duration": "2 weeks", "outcome": "Secure pipelines and deployments", "youtube": "https://www.youtube.com/watch?v=4dTn3u2Jb0w"},
-        {"topic": "Site Reliability Engineering", "duration": "3 weeks", "outcome": "SLOs, error budgets, incident response", "youtube": "https://www.youtube.com/watch?v=0yWAtQ6wYNM"}
+        {
+          "topic": "Kubernetes",
+          "duration": "4 weeks",
+          "outcome": "Orchestrate container clusters",
+          "youtube": "https://www.youtube.com/watch?v=X48VuDVv0do"
+        },
+        {
+          "topic": "Monitoring (Prometheus, Grafana)",
+          "duration": "2 weeks",
+          "outcome": "Observe system health",
+          "youtube": "https://www.youtube.com/watch?v=h4Sl21AKiDg"
+        },
+        {
+          "topic": "Security (DevSecOps)",
+          "duration": "2 weeks",
+          "outcome": "Secure pipelines and deployments",
+          "youtube": "https://www.youtube.com/watch?v=4dTn3u2Jb0w"
+        },
+        {
+          "topic": "Site Reliability Engineering",
+          "duration": "3 weeks",
+          "outcome": "SLOs, error budgets, incident response",
+          "youtube": "https://www.youtube.com/watch?v=0yWAtQ6wYNM"
+        }
       ]
     }
   },
   "Cloud Engineer": {
     "description": "Design, implement, and manage cloud-based infrastructure and services.",
-    "avg_salary": "₹6–60+ LPA",
-    "salary_inr": {"fresher": "₹6–12 LPA", "mid": "₹12–30 LPA", "experienced": "₹30–60+ LPA"},
-    "growth_outlook": "Very High — cloud adoption accelerating globally",
-    "key_skills": ["AWS/GCP/Azure", "Terraform", "Networking", "Security", "Serverless"],
-    "key_companies": ["Amazon", "Microsoft", "Google", "Snowflake", "Cloudflare"],
+    "avg_salary": "Rs.6-60+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.6-12 LPA",
+      "mid": "Rs.12-30 LPA",
+      "experienced": "Rs.30-60+ LPA"
+    },
+    "growth_outlook": "Very High - cloud adoption accelerating globally",
+    "key_skills": [
+      "AWS/GCP/Azure",
+      "Terraform",
+      "Networking",
+      "Security",
+      "Serverless"
+    ],
+    "key_companies": [
+      "Amazon",
+      "Microsoft",
+      "Google",
+      "Snowflake",
+      "Cloudflare"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Cloud Computing Concepts", "duration": "1 week", "outcome": "Understand IaaS, PaaS, SaaS", "youtube": "https://www.youtube.com/watch?v=2LaAJq1lB1Q"},
-        {"topic": "AWS/GCP Free Tier", "duration": "3 weeks", "outcome": "Hands-on with cloud services", "youtube": "https://www.youtube.com/watch?v=ulprqHHWlng"},
-        {"topic": "Linux & Networking", "duration": "2 weeks", "outcome": "Server management basics", "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"},
-        {"topic": "Storage & Databases (S3, RDS)", "duration": "2 weeks", "outcome": "Cloud data management", "youtube": "https://www.youtube.com/watch?v=Ia-UEYYR44s"}
+        {
+          "topic": "Cloud Computing Concepts",
+          "duration": "1 week",
+          "outcome": "Understand IaaS, PaaS, SaaS",
+          "youtube": "https://www.youtube.com/watch?v=2LaAJq1lB1Q"
+        },
+        {
+          "topic": "AWS/GCP Free Tier",
+          "duration": "3 weeks",
+          "outcome": "Hands-on with cloud services",
+          "youtube": "https://www.youtube.com/watch?v=ulprqHHWlng"
+        },
+        {
+          "topic": "Linux & Networking",
+          "duration": "2 weeks",
+          "outcome": "Server management basics",
+          "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"
+        },
+        {
+          "topic": "Storage & Databases (S3, RDS)",
+          "duration": "2 weeks",
+          "outcome": "Cloud data management",
+          "youtube": "https://www.youtube.com/watch?v=Ia-UEYYR44s"
+        }
       ],
       "intermediate": [
-        {"topic": "Infrastructure as Code", "duration": "3 weeks", "outcome": "Terraform / CloudFormation", "youtube": "https://www.youtube.com/watch?v=7xngnjfIlK4"},
-        {"topic": "Serverless (Lambda/Functions)", "duration": "2 weeks", "outcome": "Event-driven architecture", "youtube": "https://www.youtube.com/watch?v=eOBq__h4OJ4"},
-        {"topic": "VPC & Network Design", "duration": "2 weeks", "outcome": "Secure cloud networking", "youtube": "https://www.youtube.com/watch?v=JIbIYCM48to"},
-        {"topic": "CI/CD in Cloud", "duration": "2 weeks", "outcome": "Automated cloud deployments", "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"}
+        {
+          "topic": "Infrastructure as Code",
+          "duration": "3 weeks",
+          "outcome": "Terraform / CloudFormation",
+          "youtube": "https://www.youtube.com/watch?v=7xngnjfIlK4"
+        },
+        {
+          "topic": "Serverless (Lambda/Functions)",
+          "duration": "2 weeks",
+          "outcome": "Event-driven architecture",
+          "youtube": "https://www.youtube.com/watch?v=eOBq__h4OJ4"
+        },
+        {
+          "topic": "VPC & Network Design",
+          "duration": "2 weeks",
+          "outcome": "Secure cloud networking",
+          "youtube": "https://www.youtube.com/watch?v=JIbIYCM48to"
+        },
+        {
+          "topic": "CI/CD in Cloud",
+          "duration": "2 weeks",
+          "outcome": "Automated cloud deployments",
+          "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+        }
       ],
       "advanced": [
-        {"topic": "Multi-Cloud Strategy", "duration": "3 weeks", "outcome": "Cross-cloud architecture", "youtube": "https://www.youtube.com/watch?v=9XkV0G0kP6A"},
-        {"topic": "Cloud Security & Compliance", "duration": "3 weeks", "outcome": "IAM, encryption, audit", "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"},
-        {"topic": "Cost Optimization", "duration": "2 weeks", "outcome": "Reduce cloud spending", "youtube": "https://www.youtube.com/watch?v=Z3SYDTMP3ME"},
-        {"topic": "Cloud Architecture Certification", "duration": "4 weeks", "outcome": "AWS SA / GCP ACE cert", "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"}
+        {
+          "topic": "Multi-Cloud Strategy",
+          "duration": "3 weeks",
+          "outcome": "Cross-cloud architecture",
+          "youtube": "https://www.youtube.com/watch?v=9XkV0G0kP6A"
+        },
+        {
+          "topic": "Cloud Security & Compliance",
+          "duration": "3 weeks",
+          "outcome": "IAM, encryption, audit",
+          "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"
+        },
+        {
+          "topic": "Cost Optimization",
+          "duration": "2 weeks",
+          "outcome": "Reduce cloud spending",
+          "youtube": "https://www.youtube.com/watch?v=Z3SYDTMP3ME"
+        },
+        {
+          "topic": "Cloud Architecture Certification",
+          "duration": "4 weeks",
+          "outcome": "AWS SA / GCP ACE cert",
+          "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"
+        }
       ]
     }
   },
   "Data Analyst": {
     "description": "Analyze data to extract insights, create visualizations, and support business decisions.",
-    "avg_salary": "₹3–25 LPA",
-    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25 LPA"},
-    "growth_outlook": "High — data-driven decision making is mainstream",
-    "key_skills": ["SQL", "Python", "Excel", "Tableau/Power BI", "Statistics"],
-    "key_companies": ["Google", "McKinsey", "Deloitte", "Walmart", "Netflix"],
+    "avg_salary": "Rs.3-25 LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-6 LPA",
+      "mid": "Rs.6-12 LPA",
+      "experienced": "Rs.12-25 LPA"
+    },
+    "growth_outlook": "High - data-driven decision making is mainstream",
+    "key_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Tableau/Power BI",
+      "Statistics"
+    ],
+    "key_companies": [
+      "Google",
+      "McKinsey",
+      "Deloitte",
+      "Walmart",
+      "Netflix"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Excel & Google Sheets", "duration": "1 week", "outcome": "Data manipulation and pivot tables", "youtube": "https://www.youtube.com/watch?v=Vl0H-qTclOg"},
-        {"topic": "SQL Fundamentals", "duration": "3 weeks", "outcome": "Query databases confidently", "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"},
-        {"topic": "Statistics Basics", "duration": "2 weeks", "outcome": "Mean, median, distributions", "youtube": "https://www.youtube.com/watch?v=xxpc-HPKN28"},
-        {"topic": "Python for Data (Pandas)", "duration": "3 weeks", "outcome": "Clean and transform data", "youtube": "https://www.youtube.com/watch?v=vmEHCJofslg"}
+        {
+          "topic": "Excel & Google Sheets",
+          "duration": "1 week",
+          "outcome": "Data manipulation and pivot tables",
+          "youtube": "https://www.youtube.com/watch?v=Vl0H-qTclOg"
+        },
+        {
+          "topic": "SQL Fundamentals",
+          "duration": "3 weeks",
+          "outcome": "Query databases confidently",
+          "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "topic": "Statistics Basics",
+          "duration": "2 weeks",
+          "outcome": "Mean, median, distributions",
+          "youtube": "https://www.youtube.com/watch?v=xxpc-HPKN28"
+        },
+        {
+          "topic": "Python for Data (Pandas)",
+          "duration": "3 weeks",
+          "outcome": "Clean and transform data",
+          "youtube": "https://www.youtube.com/watch?v=vmEHCJofslg"
+        }
       ],
       "intermediate": [
-        {"topic": "Data Visualization (Matplotlib, Seaborn)", "duration": "2 weeks", "outcome": "Create compelling charts", "youtube": "https://www.youtube.com/watch?v=3Xc3CA655Y4"},
-        {"topic": "Tableau / Power BI", "duration": "3 weeks", "outcome": "Build interactive dashboards", "youtube": "https://www.youtube.com/watch?v=TPRk7dN6Yb8"},
-        {"topic": "Advanced SQL", "duration": "2 weeks", "outcome": "Window functions, CTEs", "youtube": "https://www.youtube.com/watch?v=7S_tz1z_5bA"},
-        {"topic": "A/B Testing & Hypothesis Testing", "duration": "2 weeks", "outcome": "Statistical experimentation", "youtube": "https://www.youtube.com/watch?v=0Q3Q0YwzK5A"}
+        {
+          "topic": "Data Visualization (Matplotlib, Seaborn)",
+          "duration": "2 weeks",
+          "outcome": "Create compelling charts",
+          "youtube": "https://www.youtube.com/watch?v=3Xc3CA655Y4"
+        },
+        {
+          "topic": "Tableau / Power BI",
+          "duration": "3 weeks",
+          "outcome": "Build interactive dashboards",
+          "youtube": "https://www.youtube.com/watch?v=TPRk7dN6Yb8"
+        },
+        {
+          "topic": "Advanced SQL",
+          "duration": "2 weeks",
+          "outcome": "Window functions, CTEs",
+          "youtube": "https://www.youtube.com/watch?v=7S_tz1z_5bA"
+        },
+        {
+          "topic": "A/B Testing & Hypothesis Testing",
+          "duration": "2 weeks",
+          "outcome": "Statistical experimentation",
+          "youtube": "https://www.youtube.com/watch?v=0Q3Q0YwzK5A"
+        }
       ],
       "advanced": [
-        {"topic": "Data Storytelling", "duration": "2 weeks", "outcome": "Present insights to stakeholders", "youtube": "https://www.youtube.com/watch?v=8EMW7io4rSI"},
-        {"topic": "Python Automation", "duration": "2 weeks", "outcome": "Automate reports and ETL", "youtube": "https://www.youtube.com/watch?v=qbW6FRbaSl0"},
-        {"topic": "Predictive Analytics", "duration": "3 weeks", "outcome": "Forecast trends with models", "youtube": "https://www.youtube.com/watch?v=7eh4d6sabA0"},
-        {"topic": "Domain Expertise", "duration": "4 weeks", "outcome": "Specialize in industry vertical", "youtube": "https://www.youtube.com/watch?v=2Xc9gXyf2G4"}
+        {
+          "topic": "Data Storytelling",
+          "duration": "2 weeks",
+          "outcome": "Present insights to stakeholders",
+          "youtube": "https://www.youtube.com/watch?v=8EMW7io4rSI"
+        },
+        {
+          "topic": "Python Automation",
+          "duration": "2 weeks",
+          "outcome": "Automate reports and ETL",
+          "youtube": "https://www.youtube.com/watch?v=qbW6FRbaSl0"
+        },
+        {
+          "topic": "Predictive Analytics",
+          "duration": "3 weeks",
+          "outcome": "Forecast trends with models",
+          "youtube": "https://www.youtube.com/watch?v=7eh4d6sabA0"
+        },
+        {
+          "topic": "Domain Expertise",
+          "duration": "4 weeks",
+          "outcome": "Specialize in industry vertical",
+          "youtube": "https://www.youtube.com/watch?v=2Xc9gXyf2G4"
+        }
       ]
     }
   },
   "Data Scientist": {
     "description": "Apply statistical modeling and machine learning to solve complex business problems.",
-    "avg_salary": "₹6–60+ LPA",
-    "salary_inr": {"fresher": "₹6–12 LPA", "mid": "₹12–25 LPA", "experienced": "₹25–60+ LPA"},
-    "growth_outlook": "Very High — one of the fastest-growing tech roles",
-    "key_skills": ["Python", "Machine Learning", "Statistics", "SQL", "Deep Learning"],
-    "key_companies": ["Google", "Meta", "Netflix", "Airbnb", "OpenAI"],
+    "avg_salary": "Rs.6-60+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.6-12 LPA",
+      "mid": "Rs.12-25 LPA",
+      "experienced": "Rs.25-60+ LPA"
+    },
+    "growth_outlook": "Very High - one of the fastest-growing tech roles",
+    "key_skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "SQL",
+      "Deep Learning"
+    ],
+    "key_companies": [
+      "Google",
+      "Meta",
+      "Netflix",
+      "Airbnb",
+      "OpenAI"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Python Programming", "duration": "3 weeks", "outcome": "Strong foundation in Python", "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"},
-        {"topic": "Statistics & Probability", "duration": "3 weeks", "outcome": "Distributions, hypothesis testing", "youtube": "https://www.youtube.com/watch?v=xxpc-HPKN28"},
-        {"topic": "Pandas & NumPy", "duration": "2 weeks", "outcome": "Data manipulation mastery", "youtube": "https://www.youtube.com/watch?v=vmEHCJofslg"},
-        {"topic": "Data Visualization", "duration": "2 weeks", "outcome": "Matplotlib, Seaborn charts", "youtube": "https://www.youtube.com/watch?v=3Xc3CA655Y4"}
+        {
+          "topic": "Python Programming",
+          "duration": "3 weeks",
+          "outcome": "Strong foundation in Python",
+          "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "topic": "Statistics & Probability",
+          "duration": "3 weeks",
+          "outcome": "Distributions, hypothesis testing",
+          "youtube": "https://www.youtube.com/watch?v=xxpc-HPKN28"
+        },
+        {
+          "topic": "Pandas & NumPy",
+          "duration": "2 weeks",
+          "outcome": "Data manipulation mastery",
+          "youtube": "https://www.youtube.com/watch?v=vmEHCJofslg"
+        },
+        {
+          "topic": "Data Visualization",
+          "duration": "2 weeks",
+          "outcome": "Matplotlib, Seaborn charts",
+          "youtube": "https://www.youtube.com/watch?v=3Xc3CA655Y4"
+        }
       ],
       "intermediate": [
-        {"topic": "Machine Learning (Scikit-Learn)", "duration": "4 weeks", "outcome": "Classification, regression, clustering", "youtube": "https://www.youtube.com/watch?v=7eh4d6sabA0"},
-        {"topic": "Feature Engineering", "duration": "2 weeks", "outcome": "Extract meaningful features", "youtube": "https://www.youtube.com/watch?v=0xVqLJe9_CY"},
-        {"topic": "SQL for Data Science", "duration": "2 weeks", "outcome": "Complex analytical queries", "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"},
-        {"topic": "Experiment Design", "duration": "2 weeks", "outcome": "A/B tests, causal inference", "youtube": "https://www.youtube.com/watch?v=0Q3Q0YwzK5A"}
+        {
+          "topic": "Machine Learning (Scikit-Learn)",
+          "duration": "4 weeks",
+          "outcome": "Classification, regression, clustering",
+          "youtube": "https://www.youtube.com/watch?v=7eh4d6sabA0"
+        },
+        {
+          "topic": "Feature Engineering",
+          "duration": "2 weeks",
+          "outcome": "Extract meaningful features",
+          "youtube": "https://www.youtube.com/watch?v=0xVqLJe9_CY"
+        },
+        {
+          "topic": "SQL for Data Science",
+          "duration": "2 weeks",
+          "outcome": "Complex analytical queries",
+          "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "topic": "Experiment Design",
+          "duration": "2 weeks",
+          "outcome": "A/B tests, causal inference",
+          "youtube": "https://www.youtube.com/watch?v=0Q3Q0YwzK5A"
+        }
       ],
       "advanced": [
-        {"topic": "Deep Learning (TensorFlow/PyTorch)", "duration": "4 weeks", "outcome": "Neural networks, CNNs, NLP", "youtube": "https://www.youtube.com/watch?v=aircAruvnKk"},
-        {"topic": "MLOps & Model Deployment", "duration": "3 weeks", "outcome": "Serve models in production", "youtube": "https://www.youtube.com/watch?v=06-AZXmwHjo"},
-        {"topic": "Big Data (Spark)", "duration": "3 weeks", "outcome": "Process large-scale datasets", "youtube": "https://www.youtube.com/watch?v=_C8kWso4ne4"},
-        {"topic": "Research Paper Implementation", "duration": "3 weeks", "outcome": "Reproduce state-of-the-art research", "youtube": "https://www.youtube.com/watch?v=8rXD5-xhemo"}
+        {
+          "topic": "Deep Learning (TensorFlow/PyTorch)",
+          "duration": "4 weeks",
+          "outcome": "Neural networks, CNNs, NLP",
+          "youtube": "https://www.youtube.com/watch?v=aircAruvnKk"
+        },
+        {
+          "topic": "MLOps & Model Deployment",
+          "duration": "3 weeks",
+          "outcome": "Serve models in production",
+          "youtube": "https://www.youtube.com/watch?v=06-AZXmwHjo"
+        },
+        {
+          "topic": "Big Data (Spark)",
+          "duration": "3 weeks",
+          "outcome": "Process large-scale datasets",
+          "youtube": "https://www.youtube.com/watch?v=_C8kWso4ne4"
+        },
+        {
+          "topic": "Research Paper Implementation",
+          "duration": "3 weeks",
+          "outcome": "Reproduce state-of-the-art research",
+          "youtube": "https://www.youtube.com/watch?v=8rXD5-xhemo"
+        }
       ]
     }
   },
   "ML Engineer": {
     "description": "Build, train, optimize, and deploy machine learning models at scale.",
-    "avg_salary": "₹8–70+ LPA",
-    "salary_inr": {"fresher": "₹8–15 LPA", "mid": "₹15–30 LPA", "experienced": "₹30–70+ LPA"},
-    "growth_outlook": "Extremely High — AI adoption is accelerating",
-    "key_skills": ["Python", "TensorFlow/PyTorch", "MLOps", "Cloud ML", "Mathematics"],
-    "key_companies": ["Google DeepMind", "OpenAI", "Meta AI", "NVIDIA", "Tesla"],
+    "avg_salary": "Rs.8-70+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.8-15 LPA",
+      "mid": "Rs.15-30 LPA",
+      "experienced": "Rs.30-70+ LPA"
+    },
+    "growth_outlook": "Extremely High - AI adoption is accelerating",
+    "key_skills": [
+      "Python",
+      "TensorFlow/PyTorch",
+      "MLOps",
+      "Cloud ML",
+      "Mathematics"
+    ],
+    "key_companies": [
+      "Google DeepMind",
+      "OpenAI",
+      "Meta AI",
+      "NVIDIA",
+      "Tesla"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Python & OOP", "duration": "3 weeks", "outcome": "Clean, modular Python code", "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"},
-        {"topic": "Linear Algebra & Calculus", "duration": "3 weeks", "outcome": "Math behind ML algorithms", "youtube": "https://www.youtube.com/watch?v=kjBOesZCoqc"},
-        {"topic": "Scikit-Learn Basics", "duration": "3 weeks", "outcome": "Train basic ML models", "youtube": "https://www.youtube.com/watch?v=0Lt9w-BxKFQ"},
-        {"topic": "Git & Project Structure", "duration": "1 week", "outcome": "Reproducible ML projects", "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"}
+        {
+          "topic": "Python & OOP",
+          "duration": "3 weeks",
+          "outcome": "Clean, modular Python code",
+          "youtube": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "topic": "Linear Algebra & Calculus",
+          "duration": "3 weeks",
+          "outcome": "Math behind ML algorithms",
+          "youtube": "https://www.youtube.com/watch?v=kjBOesZCoqc"
+        },
+        {
+          "topic": "Scikit-Learn Basics",
+          "duration": "3 weeks",
+          "outcome": "Train basic ML models",
+          "youtube": "https://www.youtube.com/watch?v=0Lt9w-BxKFQ"
+        },
+        {
+          "topic": "Git & Project Structure",
+          "duration": "1 week",
+          "outcome": "Reproducible ML projects",
+          "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+        }
       ],
       "intermediate": [
-        {"topic": "Deep Learning Fundamentals", "duration": "4 weeks", "outcome": "Build neural networks", "youtube": "https://www.youtube.com/watch?v=aircAruvnKk"},
-        {"topic": "PyTorch / TensorFlow", "duration": "4 weeks", "outcome": "Framework proficiency", "youtube": "https://www.youtube.com/watch?v=GIsg-ZUy0MY"},
-        {"topic": "Model Evaluation & Tuning", "duration": "2 weeks", "outcome": "Cross-validation, hyperparameter tuning", "youtube": "https://www.youtube.com/watch?v=SHMbu9AJ9_8"},
-        {"topic": "Data Pipelines", "duration": "2 weeks", "outcome": "ETL for ML systems", "youtube": "https://www.youtube.com/watch?v=K4NBSWElB7I"}
+        {
+          "topic": "Deep Learning Fundamentals",
+          "duration": "4 weeks",
+          "outcome": "Build neural networks",
+          "youtube": "https://www.youtube.com/watch?v=aircAruvnKk"
+        },
+        {
+          "topic": "PyTorch / TensorFlow",
+          "duration": "4 weeks",
+          "outcome": "Framework proficiency",
+          "youtube": "https://www.youtube.com/watch?v=GIsg-ZUy0MY"
+        },
+        {
+          "topic": "Model Evaluation & Tuning",
+          "duration": "2 weeks",
+          "outcome": "Cross-validation, hyperparameter tuning",
+          "youtube": "https://www.youtube.com/watch?v=SHMbu9AJ9_8"
+        },
+        {
+          "topic": "Data Pipelines",
+          "duration": "2 weeks",
+          "outcome": "ETL for ML systems",
+          "youtube": "https://www.youtube.com/watch?v=K4NBSWElB7I"
+        }
       ],
       "advanced": [
-        {"topic": "MLOps (MLflow, Kubeflow)", "duration": "3 weeks", "outcome": "ML lifecycle management", "youtube": "https://www.youtube.com/watch?v=06-AZXmwHjo"},
-        {"topic": "Model Serving (TF Serving, FastAPI)", "duration": "2 weeks", "outcome": "Deploy models as APIs", "youtube": "https://www.youtube.com/watch?v=7t2alSnE2-I"},
-        {"topic": "Distributed Training", "duration": "3 weeks", "outcome": "Train on multiple GPUs", "youtube": "https://www.youtube.com/watch?v=1gDhl4leEzA"},
-        {"topic": "LLMs & Transformers", "duration": "4 weeks", "outcome": "Fine-tune language models", "youtube": "https://www.youtube.com/watch?v=8rXD5-xhemo"}
+        {
+          "topic": "MLOps (MLflow, Kubeflow)",
+          "duration": "3 weeks",
+          "outcome": "ML lifecycle management",
+          "youtube": "https://www.youtube.com/watch?v=06-AZXmwHjo"
+        },
+        {
+          "topic": "Model Serving (TF Serving, FastAPI)",
+          "duration": "2 weeks",
+          "outcome": "Deploy models as APIs",
+          "youtube": "https://www.youtube.com/watch?v=7t2alSnE2-I"
+        },
+        {
+          "topic": "Distributed Training",
+          "duration": "3 weeks",
+          "outcome": "Train on multiple GPUs",
+          "youtube": "https://www.youtube.com/watch?v=1gDhl4leEzA"
+        },
+        {
+          "topic": "LLMs & Transformers",
+          "duration": "4 weeks",
+          "outcome": "Fine-tune language models",
+          "youtube": "https://www.youtube.com/watch?v=8rXD5-xhemo"
+        }
       ]
     }
   },
   "UI/UX Designer": {
     "description": "Design intuitive, beautiful user interfaces backed by research and user testing.",
-    "avg_salary": "₹3–30 LPA",
-    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–15 LPA", "experienced": "₹15–30 LPA"},
-    "growth_outlook": "High — user experience is a key differentiator",
-    "key_skills": ["Figma", "User Research", "Prototyping", "Design Systems", "HTML/CSS"],
-    "key_companies": ["Apple", "Airbnb", "Spotify", "Google", "Figma"],
+    "avg_salary": "Rs.3-30 LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-6 LPA",
+      "mid": "Rs.6-15 LPA",
+      "experienced": "Rs.15-30 LPA"
+    },
+    "growth_outlook": "High - user experience is a key differentiator",
+    "key_skills": [
+      "Figma",
+      "User Research",
+      "Prototyping",
+      "Design Systems",
+      "HTML/CSS"
+    ],
+    "key_companies": [
+      "Apple",
+      "Airbnb",
+      "Spotify",
+      "Google",
+      "Figma"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Design Principles", "duration": "2 weeks", "outcome": "Color theory, typography, layout", "youtube": "https://www.youtube.com/watch?v=YqQx75OPRa0"},
-        {"topic": "Figma Basics", "duration": "2 weeks", "outcome": "Create wireframes and mockups", "youtube": "https://www.youtube.com/watch?v=FTFaQWZBqQ8"},
-        {"topic": "User Research Methods", "duration": "2 weeks", "outcome": "Interviews, surveys, personas", "youtube": "https://www.youtube.com/watch?v=Ovj4hFxko7c"},
-        {"topic": "HTML & CSS Fundamentals", "duration": "2 weeks", "outcome": "Implement your own designs", "youtube": "https://www.youtube.com/watch?v=pQN-pnXPaVg"}
+        {
+          "topic": "Design Principles",
+          "duration": "2 weeks",
+          "outcome": "Color theory, typography, layout",
+          "youtube": "https://www.youtube.com/watch?v=YqQx75OPRa0"
+        },
+        {
+          "topic": "Figma Basics",
+          "duration": "2 weeks",
+          "outcome": "Create wireframes and mockups",
+          "youtube": "https://www.youtube.com/watch?v=FTFaQWZBqQ8"
+        },
+        {
+          "topic": "User Research Methods",
+          "duration": "2 weeks",
+          "outcome": "Interviews, surveys, personas",
+          "youtube": "https://www.youtube.com/watch?v=Ovj4hFxko7c"
+        },
+        {
+          "topic": "HTML & CSS Fundamentals",
+          "duration": "2 weeks",
+          "outcome": "Implement your own designs",
+          "youtube": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+        }
       ],
       "intermediate": [
-        {"topic": "Prototyping & Interaction Design", "duration": "3 weeks", "outcome": "Clickable prototypes", "youtube": "https://www.youtube.com/watch?v=F3Z0x8qX1V0"},
-        {"topic": "Design Systems", "duration": "2 weeks", "outcome": "Reusable component libraries", "youtube": "https://www.youtube.com/watch?v=wc5krC28ynQ"},
-        {"topic": "Usability Testing", "duration": "2 weeks", "outcome": "Test designs with real users", "youtube": "https://www.youtube.com/watch?v=3nYLTiY5skU"},
-        {"topic": "Responsive & Accessible Design", "duration": "2 weeks", "outcome": "WCAG compliance", "youtube": "https://www.youtube.com/watch?v=Sr0p6M0x2vE"}
+        {
+          "topic": "Prototyping & Interaction Design",
+          "duration": "3 weeks",
+          "outcome": "Clickable prototypes",
+          "youtube": "https://www.youtube.com/watch?v=F3Z0x8qX1V0"
+        },
+        {
+          "topic": "Design Systems",
+          "duration": "2 weeks",
+          "outcome": "Reusable component libraries",
+          "youtube": "https://www.youtube.com/watch?v=wc5krC28ynQ"
+        },
+        {
+          "topic": "Usability Testing",
+          "duration": "2 weeks",
+          "outcome": "Test designs with real users",
+          "youtube": "https://www.youtube.com/watch?v=3nYLTiY5skU"
+        },
+        {
+          "topic": "Responsive & Accessible Design",
+          "duration": "2 weeks",
+          "outcome": "WCAG compliance",
+          "youtube": "https://www.youtube.com/watch?v=Sr0p6M0x2vE"
+        }
       ],
       "advanced": [
-        {"topic": "Motion Design", "duration": "2 weeks", "outcome": "Micro-interactions, animations", "youtube": "https://www.youtube.com/watch?v=GOM9t9X6bqI"},
-        {"topic": "Design Leadership", "duration": "3 weeks", "outcome": "Lead design sprints", "youtube": "https://www.youtube.com/watch?v=RzYJXl5x6Jk"},
-        {"topic": "Frontend Development (React)", "duration": "4 weeks", "outcome": "Build what you design", "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"},
-        {"topic": "Portfolio & Case Studies", "duration": "2 weeks", "outcome": "Showcase your work", "youtube": "https://www.youtube.com/watch?v=0YFrGy_mzjY"}
+        {
+          "topic": "Motion Design",
+          "duration": "2 weeks",
+          "outcome": "Micro-interactions, animations",
+          "youtube": "https://www.youtube.com/watch?v=GOM9t9X6bqI"
+        },
+        {
+          "topic": "Design Leadership",
+          "duration": "3 weeks",
+          "outcome": "Lead design sprints",
+          "youtube": "https://www.youtube.com/watch?v=RzYJXl5x6Jk"
+        },
+        {
+          "topic": "Frontend Development (React)",
+          "duration": "4 weeks",
+          "outcome": "Build what you design",
+          "youtube": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+        },
+        {
+          "topic": "Portfolio & Case Studies",
+          "duration": "2 weeks",
+          "outcome": "Showcase your work",
+          "youtube": "https://www.youtube.com/watch?v=0YFrGy_mzjY"
+        }
       ]
     }
   },
   "Cybersecurity Analyst": {
     "description": "Protect organizations from cyber threats through monitoring, analysis, and incident response.",
-    "avg_salary": "₹5–50+ LPA",
-    "salary_inr": {"fresher": "₹5–10 LPA", "mid": "₹10–25 LPA", "experienced": "₹25–50+ LPA"},
-    "growth_outlook": "Very High — cybercrime costs growing 15% annually",
-    "key_skills": ["Network Security", "SIEM", "Penetration Testing", "Compliance", "Incident Response"],
-    "key_companies": ["CrowdStrike", "Palo Alto Networks", "IBM Security", "NSA", "Cisco"],
+    "avg_salary": "Rs.5-50+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.5-10 LPA",
+      "mid": "Rs.10-25 LPA",
+      "experienced": "Rs.25-50+ LPA"
+    },
+    "growth_outlook": "Very High - cybercrime costs growing 15% annually",
+    "key_skills": [
+      "Network Security",
+      "SIEM",
+      "Penetration Testing",
+      "Compliance",
+      "Incident Response"
+    ],
+    "key_companies": [
+      "CrowdStrike",
+      "Palo Alto Networks",
+      "IBM Security",
+      "NSA",
+      "Cisco"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Networking Fundamentals", "duration": "3 weeks", "outcome": "TCP/IP, DNS, firewalls", "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
-        {"topic": "Linux Administration", "duration": "2 weeks", "outcome": "Command line proficiency", "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"},
-        {"topic": "Security Concepts (CIA Triad)", "duration": "2 weeks", "outcome": "Core security principles", "youtube": "https://www.youtube.com/watch?v=inWWhr5tnEA"},
-        {"topic": "Common Threats & Attacks", "duration": "2 weeks", "outcome": "Phishing, malware, SQL injection", "youtube": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"}
+        {
+          "topic": "Networking Fundamentals",
+          "duration": "3 weeks",
+          "outcome": "TCP/IP, DNS, firewalls",
+          "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "topic": "Linux Administration",
+          "duration": "2 weeks",
+          "outcome": "Command line proficiency",
+          "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"
+        },
+        {
+          "topic": "Security Concepts (CIA Triad)",
+          "duration": "2 weeks",
+          "outcome": "Core security principles",
+          "youtube": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+        },
+        {
+          "topic": "Common Threats & Attacks",
+          "duration": "2 weeks",
+          "outcome": "Phishing, malware, SQL injection",
+          "youtube": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+        }
       ],
       "intermediate": [
-        {"topic": "Penetration Testing (Kali Linux)", "duration": "4 weeks", "outcome": "Ethical hacking basics", "youtube": "https://www.youtube.com/watch?v=lZAoFs75_cs"},
-        {"topic": "SIEM Tools (Splunk/ELK)", "duration": "3 weeks", "outcome": "Monitor security events", "youtube": "https://www.youtube.com/watch?v=6l0VZQ0G6kU"},
-        {"topic": "Vulnerability Assessment", "duration": "2 weeks", "outcome": "Scan and report vulnerabilities", "youtube": "https://www.youtube.com/watch?v=U_P23SqJaDc"},
-        {"topic": "Cryptography", "duration": "2 weeks", "outcome": "Encryption, hashing, PKI", "youtube": "https://www.youtube.com/watch?v=jhXCTbFnK8o"}
+        {
+          "topic": "Penetration Testing (Kali Linux)",
+          "duration": "4 weeks",
+          "outcome": "Ethical hacking basics",
+          "youtube": "https://www.youtube.com/watch?v=lZAoFs75_cs"
+        },
+        {
+          "topic": "SIEM Tools (Splunk/ELK)",
+          "duration": "3 weeks",
+          "outcome": "Monitor security events",
+          "youtube": "https://www.youtube.com/watch?v=6l0VZQ0G6kU"
+        },
+        {
+          "topic": "Vulnerability Assessment",
+          "duration": "2 weeks",
+          "outcome": "Scan and report vulnerabilities",
+          "youtube": "https://www.youtube.com/watch?v=U_P23SqJaDc"
+        },
+        {
+          "topic": "Cryptography",
+          "duration": "2 weeks",
+          "outcome": "Encryption, hashing, PKI",
+          "youtube": "https://www.youtube.com/watch?v=jhXCTbFnK8o"
+        }
       ],
       "advanced": [
-        {"topic": "Incident Response & Forensics", "duration": "3 weeks", "outcome": "Handle security breaches", "youtube": "https://www.youtube.com/watch?v=1dHk8fU6p8A"},
-        {"topic": "Compliance (SOC 2, ISO 27001)", "duration": "2 weeks", "outcome": "Security frameworks", "youtube": "https://www.youtube.com/watch?v=3y7XKkRkF9M"},
-        {"topic": "Cloud Security", "duration": "3 weeks", "outcome": "Secure cloud workloads", "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"},
-        {"topic": "Security Certifications (CEH/CompTIA)", "duration": "6 weeks", "outcome": "Industry certification", "youtube": "https://www.youtube.com/watch?v=2P5d1i0S8vU"}
+        {
+          "topic": "Incident Response & Forensics",
+          "duration": "3 weeks",
+          "outcome": "Handle security breaches",
+          "youtube": "https://www.youtube.com/watch?v=1dHk8fU6p8A"
+        },
+        {
+          "topic": "Compliance (SOC 2, ISO 27001)",
+          "duration": "2 weeks",
+          "outcome": "Security frameworks",
+          "youtube": "https://www.youtube.com/watch?v=3y7XKkRkF9M"
+        },
+        {
+          "topic": "Cloud Security",
+          "duration": "3 weeks",
+          "outcome": "Secure cloud workloads",
+          "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"
+        },
+        {
+          "topic": "Security Certifications (CEH/CompTIA)",
+          "duration": "6 weeks",
+          "outcome": "Industry certification",
+          "youtube": "https://www.youtube.com/watch?v=2P5d1i0S8vU"
+        }
       ]
     }
   },
   "QA / Test Engineer": {
     "description": "Ensure software quality through manual testing, test automation, and quality processes.",
-    "avg_salary": "₹3–25 LPA",
-    "salary_inr": {"fresher": "₹3–5 LPA", "mid": "₹5–12 LPA", "experienced": "₹12–25 LPA"},
-    "growth_outlook": "Steady — quality assurance is fundamental",
-    "key_skills": ["Selenium", "Cypress", "API Testing", "Test Planning", "CI/CD"],
-    "key_companies": ["Google", "Microsoft", "Amazon", "Sauce Labs", "BrowserStack"],
+    "avg_salary": "Rs.3-25 LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-5 LPA",
+      "mid": "Rs.5-12 LPA",
+      "experienced": "Rs.12-25 LPA"
+    },
+    "growth_outlook": "Steady - quality assurance is fundamental",
+    "key_skills": [
+      "Selenium",
+      "Cypress",
+      "API Testing",
+      "Test Planning",
+      "CI/CD"
+    ],
+    "key_companies": [
+      "Google",
+      "Microsoft",
+      "Amazon",
+      "Sauce Labs",
+      "BrowserStack"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Software Testing Fundamentals", "duration": "2 weeks", "outcome": "Test types, SDLC, bug lifecycle", "youtube": "https://www.youtube.com/watch?v=J7qJpK6K7p0"},
-        {"topic": "Manual Testing", "duration": "2 weeks", "outcome": "Write test cases, execute tests", "youtube": "https://www.youtube.com/watch?v=1n5p6v3X1zM"},
-        {"topic": "Bug Tracking (Jira)", "duration": "1 week", "outcome": "Report and track defects", "youtube": "https://www.youtube.com/watch?v=3q1o8Jz6V9k"},
-        {"topic": "Basic Programming (Python/JS)", "duration": "3 weeks", "outcome": "Code foundation for automation", "youtube": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"}
+        {
+          "topic": "Software Testing Fundamentals",
+          "duration": "2 weeks",
+          "outcome": "Test types, SDLC, bug lifecycle",
+          "youtube": "https://www.youtube.com/watch?v=J7qJpK6K7p0"
+        },
+        {
+          "topic": "Manual Testing",
+          "duration": "2 weeks",
+          "outcome": "Write test cases, execute tests",
+          "youtube": "https://www.youtube.com/watch?v=1n5p6v3X1zM"
+        },
+        {
+          "topic": "Bug Tracking (Jira)",
+          "duration": "1 week",
+          "outcome": "Report and track defects",
+          "youtube": "https://www.youtube.com/watch?v=3q1o8Jz6V9k"
+        },
+        {
+          "topic": "Basic Programming (Python/JS)",
+          "duration": "3 weeks",
+          "outcome": "Code foundation for automation",
+          "youtube": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+        }
       ],
       "intermediate": [
-        {"topic": "Selenium / Cypress Automation", "duration": "4 weeks", "outcome": "Automate browser testing", "youtube": "https://www.youtube.com/watch?v=7N63cMKosIE"},
-        {"topic": "API Testing (Postman, requests)", "duration": "2 weeks", "outcome": "Test REST APIs", "youtube": "https://www.youtube.com/watch?v=VywxIQ2ZXw4"},
-        {"topic": "Test Frameworks (pytest/Jest)", "duration": "2 weeks", "outcome": "Structured test suites", "youtube": "https://www.youtube.com/watch?v=DhUpxWjOhME"},
-        {"topic": "CI/CD Integration", "duration": "2 weeks", "outcome": "Run tests in pipeline", "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"}
+        {
+          "topic": "Selenium / Cypress Automation",
+          "duration": "4 weeks",
+          "outcome": "Automate browser testing",
+          "youtube": "https://www.youtube.com/watch?v=7N63cMKosIE"
+        },
+        {
+          "topic": "API Testing (Postman, requests)",
+          "duration": "2 weeks",
+          "outcome": "Test REST APIs",
+          "youtube": "https://www.youtube.com/watch?v=VywxIQ2ZXw4"
+        },
+        {
+          "topic": "Test Frameworks (pytest/Jest)",
+          "duration": "2 weeks",
+          "outcome": "Structured test suites",
+          "youtube": "https://www.youtube.com/watch?v=DhUpxWjOhME"
+        },
+        {
+          "topic": "CI/CD Integration",
+          "duration": "2 weeks",
+          "outcome": "Run tests in pipeline",
+          "youtube": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+        }
       ],
       "advanced": [
-        {"topic": "Performance Testing (JMeter)", "duration": "2 weeks", "outcome": "Load and stress testing", "youtube": "https://www.youtube.com/watch?v=7P9k6Hkz4zA"},
-        {"topic": "Security Testing Basics", "duration": "2 weeks", "outcome": "OWASP Top 10", "youtube": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"},
-        {"topic": "Mobile Testing", "duration": "2 weeks", "outcome": "Appium / device testing", "youtube": "https://www.youtube.com/watch?v=8W0p3G1Q8UQ"},
-        {"topic": "SDET Path", "duration": "4 weeks", "outcome": "Software Development Engineer in Test", "youtube": "https://www.youtube.com/watch?v=6Zy7Fv0FJ0M"}
+        {
+          "topic": "Performance Testing (JMeter)",
+          "duration": "2 weeks",
+          "outcome": "Load and stress testing",
+          "youtube": "https://www.youtube.com/watch?v=7P9k6Hkz4zA"
+        },
+        {
+          "topic": "Security Testing Basics",
+          "duration": "2 weeks",
+          "outcome": "OWASP Top 10",
+          "youtube": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+        },
+        {
+          "topic": "Mobile Testing",
+          "duration": "2 weeks",
+          "outcome": "Appium / device testing",
+          "youtube": "https://www.youtube.com/watch?v=8W0p3G1Q8UQ"
+        },
+        {
+          "topic": "SDET Path",
+          "duration": "4 weeks",
+          "outcome": "Software Development Engineer in Test",
+          "youtube": "https://www.youtube.com/watch?v=6Zy7Fv0FJ0M"
+        }
       ]
     }
   },
   "Database Administrator": {
     "description": "Design, manage, optimize, and secure organizational database systems.",
-    "avg_salary": "₹4–35+ LPA",
-    "salary_inr": {"fresher": "₹4–8 LPA", "mid": "₹8–18 LPA", "experienced": "₹18–35+ LPA"},
-    "growth_outlook": "Stable — data management remains critical",
-    "key_skills": ["SQL", "PostgreSQL/MySQL", "Performance Tuning", "Backup/Recovery", "Data Modeling"],
-    "key_companies": ["Oracle", "Amazon RDS", "Microsoft", "MongoDB", "Snowflake"],
+    "avg_salary": "Rs.4-35+ LPA",
+    "salary_inr": {
+      "fresher": "Rs.4-8 LPA",
+      "mid": "Rs.8-18 LPA",
+      "experienced": "Rs.18-35+ LPA"
+    },
+    "growth_outlook": "Stable - data management remains critical",
+    "key_skills": [
+      "SQL",
+      "PostgreSQL/MySQL",
+      "Performance Tuning",
+      "Backup/Recovery",
+      "Data Modeling"
+    ],
+    "key_companies": [
+      "Oracle",
+      "Amazon RDS",
+      "Microsoft",
+      "MongoDB",
+      "Snowflake"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "SQL Mastery", "duration": "3 weeks", "outcome": "Complex queries, JOINs, subqueries", "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"},
-        {"topic": "Database Design & Normalization", "duration": "2 weeks", "outcome": "Design efficient schemas", "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
-        {"topic": "PostgreSQL / MySQL Setup", "duration": "2 weeks", "outcome": "Install, configure, manage", "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"},
-        {"topic": "Data Types & Constraints", "duration": "1 week", "outcome": "Data integrity", "youtube": "https://www.youtube.com/watch?v=inWWhr5tnEA"}
+        {
+          "topic": "SQL Mastery",
+          "duration": "3 weeks",
+          "outcome": "Complex queries, JOINs, subqueries",
+          "youtube": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "topic": "Database Design & Normalization",
+          "duration": "2 weeks",
+          "outcome": "Design efficient schemas",
+          "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "topic": "PostgreSQL / MySQL Setup",
+          "duration": "2 weeks",
+          "outcome": "Install, configure, manage",
+          "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"
+        },
+        {
+          "topic": "Data Types & Constraints",
+          "duration": "1 week",
+          "outcome": "Data integrity",
+          "youtube": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+        }
       ],
       "intermediate": [
-        {"topic": "Query Optimization", "duration": "3 weeks", "outcome": "EXPLAIN plans, index strategy", "youtube": "https://www.youtube.com/watch?v=lZAoFs75_cs"},
-        {"topic": "Backup & Recovery", "duration": "2 weeks", "outcome": "Point-in-time recovery", "youtube": "https://www.youtube.com/watch?v=6l0VZQ0G6kU"},
-        {"topic": "Replication & High Availability", "duration": "2 weeks", "outcome": "Master-slave, failover", "youtube": "https://www.youtube.com/watch?v=U_P23SqJaDc"},
-        {"topic": "NoSQL (MongoDB/Redis)", "duration": "2 weeks", "outcome": "Document and key-value stores", "youtube": "https://www.youtube.com/watch?v=jhXCTbFnK8o"}
+        {
+          "topic": "Query Optimization",
+          "duration": "3 weeks",
+          "outcome": "EXPLAIN plans, index strategy",
+          "youtube": "https://www.youtube.com/watch?v=lZAoFs75_cs"
+        },
+        {
+          "topic": "Backup & Recovery",
+          "duration": "2 weeks",
+          "outcome": "Point-in-time recovery",
+          "youtube": "https://www.youtube.com/watch?v=6l0VZQ0G6kU"
+        },
+        {
+          "topic": "Replication & High Availability",
+          "duration": "2 weeks",
+          "outcome": "Master-slave, failover",
+          "youtube": "https://www.youtube.com/watch?v=U_P23SqJaDc"
+        },
+        {
+          "topic": "NoSQL (MongoDB/Redis)",
+          "duration": "2 weeks",
+          "outcome": "Document and key-value stores",
+          "youtube": "https://www.youtube.com/watch?v=jhXCTbFnK8o"
+        }
       ],
       "advanced": [
-        {"topic": "Database Security", "duration": "2 weeks", "outcome": "Encryption, access control, audit", "youtube": "https://www.youtube.com/watch?v=1dHk8fU6p8A"},
-        {"topic": "Cloud Databases (RDS, Aurora)", "duration": "3 weeks", "outcome": "Managed database services", "youtube": "https://www.youtube.com/watch?v=3y7XKkRkF9M"},
-        {"topic": "Data Warehousing", "duration": "3 weeks", "outcome": "OLAP, star schema, ETL", "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"},
-        {"topic": "Database Certification", "duration": "4 weeks", "outcome": "Oracle/AWS DB certification", "youtube": "https://www.youtube.com/watch?v=2P5d1i0S8vU"}
+        {
+          "topic": "Database Security",
+          "duration": "2 weeks",
+          "outcome": "Encryption, access control, audit",
+          "youtube": "https://www.youtube.com/watch?v=1dHk8fU6p8A"
+        },
+        {
+          "topic": "Cloud Databases (RDS, Aurora)",
+          "duration": "3 weeks",
+          "outcome": "Managed database services",
+          "youtube": "https://www.youtube.com/watch?v=3y7XKkRkF9M"
+        },
+        {
+          "topic": "Data Warehousing",
+          "duration": "3 weeks",
+          "outcome": "OLAP, star schema, ETL",
+          "youtube": "https://www.youtube.com/watch?v=K0mSg3cYJ7k"
+        },
+        {
+          "topic": "Database Certification",
+          "duration": "4 weeks",
+          "outcome": "Oracle/AWS DB certification",
+          "youtube": "https://www.youtube.com/watch?v=2P5d1i0S8vU"
+        }
       ]
     }
   },
   "System Administrator": {
-    "description": "Manage and maintain IT infrastructure — servers, networks, and enterprise systems.",
-    "avg_salary": "₹3–25 LPA",
-    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–25 LPA"},
-    "growth_outlook": "Moderate — evolving towards cloud and DevOps",
-    "key_skills": ["Linux/Windows Server", "Networking", "Scripting", "Monitoring", "Virtualization"],
-    "key_companies": ["IBM", "HP Enterprise", "Dell", "Red Hat", "VMware"],
+    "description": "Manage and maintain IT infrastructure - servers, networks, and enterprise systems.",
+    "avg_salary": "Rs.3-25 LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-6 LPA",
+      "mid": "Rs.6-12 LPA",
+      "experienced": "Rs.12-25 LPA"
+    },
+    "growth_outlook": "Moderate - evolving towards cloud and DevOps",
+    "key_skills": [
+      "Linux/Windows Server",
+      "Networking",
+      "Scripting",
+      "Monitoring",
+      "Virtualization"
+    ],
+    "key_companies": [
+      "IBM",
+      "HP Enterprise",
+      "Dell",
+      "Red Hat",
+      "VMware"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Linux Fundamentals", "duration": "3 weeks", "outcome": "File system, permissions, processes", "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"},
-        {"topic": "Windows Server Basics", "duration": "2 weeks", "outcome": "Active Directory, GPOs", "youtube": "https://www.youtube.com/watch?v=8gytK9m9cR8"},
-        {"topic": "Networking Essentials", "duration": "2 weeks", "outcome": "IP addressing, subnetting, DNS", "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
-        {"topic": "Shell Scripting (Bash)", "duration": "2 weeks", "outcome": "Automate routine tasks", "youtube": "https://www.youtube.com/watch?v=oxuRxtrO2Ag"}
+        {
+          "topic": "Linux Fundamentals",
+          "duration": "3 weeks",
+          "outcome": "File system, permissions, processes",
+          "youtube": "https://www.youtube.com/watch?v=IVquJh3DXUA"
+        },
+        {
+          "topic": "Windows Server Basics",
+          "duration": "2 weeks",
+          "outcome": "Active Directory, GPOs",
+          "youtube": "https://www.youtube.com/watch?v=8gytK9m9cR8"
+        },
+        {
+          "topic": "Networking Essentials",
+          "duration": "2 weeks",
+          "outcome": "IP addressing, subnetting, DNS",
+          "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "topic": "Shell Scripting (Bash)",
+          "duration": "2 weeks",
+          "outcome": "Automate routine tasks",
+          "youtube": "https://www.youtube.com/watch?v=oxuRxtrO2Ag"
+        }
       ],
       "intermediate": [
-        {"topic": "Virtualization (VMware/Hyper-V)", "duration": "3 weeks", "outcome": "Create and manage VMs", "youtube": "https://www.youtube.com/watch?v=wX75Z-4MEoM"},
-        {"topic": "Monitoring (Nagios/Zabbix)", "duration": "2 weeks", "outcome": "System health monitoring", "youtube": "https://www.youtube.com/watch?v=8Hh1X7m9Kxk"},
-        {"topic": "Backup Strategies", "duration": "2 weeks", "outcome": "Disaster recovery planning", "youtube": "https://www.youtube.com/watch?v=VQdM6E2v0b0"},
-        {"topic": "Security Hardening", "duration": "2 weeks", "outcome": "Secure server configurations", "youtube": "https://www.youtube.com/watch?v=5mm-xPN0dRg"}
+        {
+          "topic": "Virtualization (VMware/Hyper-V)",
+          "duration": "3 weeks",
+          "outcome": "Create and manage VMs",
+          "youtube": "https://www.youtube.com/watch?v=wX75Z-4MEoM"
+        },
+        {
+          "topic": "Monitoring (Nagios/Zabbix)",
+          "duration": "2 weeks",
+          "outcome": "System health monitoring",
+          "youtube": "https://www.youtube.com/watch?v=8Hh1X7m9Kxk"
+        },
+        {
+          "topic": "Backup Strategies",
+          "duration": "2 weeks",
+          "outcome": "Disaster recovery planning",
+          "youtube": "https://www.youtube.com/watch?v=VQdM6E2v0b0"
+        },
+        {
+          "topic": "Security Hardening",
+          "duration": "2 weeks",
+          "outcome": "Secure server configurations",
+          "youtube": "https://www.youtube.com/watch?v=5mm-xPN0dRg"
+        }
       ],
       "advanced": [
-        {"topic": "Cloud Administration", "duration": "4 weeks", "outcome": "AWS/Azure infrastructure", "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"},
-        {"topic": "Configuration Management (Ansible)", "duration": "3 weeks", "outcome": "Automate server provisioning", "youtube": "https://www.youtube.com/watch?v=wgQ3rHFTM4E"},
-        {"topic": "Container Management", "duration": "2 weeks", "outcome": "Docker in enterprise environments", "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"},
-        {"topic": "ITIL & Certification", "duration": "3 weeks", "outcome": "CompTIA Server+ / RHCSA", "youtube": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"}
+        {
+          "topic": "Cloud Administration",
+          "duration": "4 weeks",
+          "outcome": "AWS/Azure infrastructure",
+          "youtube": "https://www.youtube.com/watch?v=3hLmDS179YE"
+        },
+        {
+          "topic": "Configuration Management (Ansible)",
+          "duration": "3 weeks",
+          "outcome": "Automate server provisioning",
+          "youtube": "https://www.youtube.com/watch?v=wgQ3rHFTM4E"
+        },
+        {
+          "topic": "Container Management",
+          "duration": "2 weeks",
+          "outcome": "Docker in enterprise environments",
+          "youtube": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+        },
+        {
+          "topic": "ITIL & Certification",
+          "duration": "3 weeks",
+          "outcome": "CompTIA Server+ / RHCSA",
+          "youtube": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"
+        }
       ]
     }
   },
   "Network Engineer": {
     "description": "Design, implement, and maintain computer networks for organizations.",
-    "avg_salary": "₹3–20 LPA",
-    "salary_inr": {"fresher": "₹3–6 LPA", "mid": "₹6–12 LPA", "experienced": "₹12–20 LPA"},
-    "growth_outlook": "Stable — essential infrastructure role",
-    "key_skills": ["Routing/Switching", "Cisco/Juniper", "TCP/IP", "Firewall Management", "CCNA/CCNP"],
-    "key_companies": ["Cisco", "Juniper Networks", "AT&T", "Verizon", "Cloudflare"],
+    "avg_salary": "Rs.3-20 LPA",
+    "salary_inr": {
+      "fresher": "Rs.3-6 LPA",
+      "mid": "Rs.6-12 LPA",
+      "experienced": "Rs.12-20 LPA"
+    },
+    "growth_outlook": "Stable - essential infrastructure role",
+    "key_skills": [
+      "Routing/Switching",
+      "Cisco/Juniper",
+      "TCP/IP",
+      "Firewall Management",
+      "CCNA/CCNP"
+    ],
+    "key_companies": [
+      "Cisco",
+      "Juniper Networks",
+      "AT&T",
+      "Verizon",
+      "Cloudflare"
+    ],
     "roadmap": {
       "beginner": [
-        {"topic": "Networking Fundamentals", "duration": "3 weeks", "outcome": "OSI model, TCP/IP stack", "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
-        {"topic": "IP Addressing & Subnetting", "duration": "2 weeks", "outcome": "Calculate subnets, CIDR", "youtube": "https://www.youtube.com/watch?v=5WfiTHiU4x8"},
-        {"topic": "Switching & VLANs", "duration": "2 weeks", "outcome": "Configure Layer 2 networks", "youtube": "https://www.youtube.com/watch?v=4k5xX2a3dSg"},
-        {"topic": "Packet Tracer / GNS3 Labs", "duration": "2 weeks", "outcome": "Hands-on network simulation", "youtube": "https://www.youtube.com/watch?v=0X9Y9gFJ8Jw"}
+        {
+          "topic": "Networking Fundamentals",
+          "duration": "3 weeks",
+          "outcome": "OSI model, TCP/IP stack",
+          "youtube": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "topic": "IP Addressing & Subnetting",
+          "duration": "2 weeks",
+          "outcome": "Calculate subnets, CIDR",
+          "youtube": "https://www.youtube.com/watch?v=5WfiTHiU4x8"
+        },
+        {
+          "topic": "Switching & VLANs",
+          "duration": "2 weeks",
+          "outcome": "Configure Layer 2 networks",
+          "youtube": "https://www.youtube.com/watch?v=4k5xX2a3dSg"
+        },
+        {
+          "topic": "Packet Tracer / GNS3 Labs",
+          "duration": "2 weeks",
+          "outcome": "Hands-on network simulation",
+          "youtube": "https://www.youtube.com/watch?v=0X9Y9gFJ8Jw"
+        }
       ],
       "intermediate": [
-        {"topic": "Routing Protocols (OSPF, BGP)", "duration": "3 weeks", "outcome": "Configure dynamic routing", "youtube": "https://www.youtube.com/watch?v=2pQ9l0Y8W2E"},
-        {"topic": "Firewall & ACLs", "duration": "2 weeks", "outcome": "Network security policies", "youtube": "https://www.youtube.com/watch?v=3QhU9jd03a0"},
-        {"topic": "VPN & Remote Access", "duration": "2 weeks", "outcome": "Secure remote connectivity", "youtube": "https://www.youtube.com/watch?v=5FZ9Q7W2l7M"},
-        {"topic": "Wireless Networking", "duration": "2 weeks", "outcome": "WiFi standards, controllers", "youtube": "https://www.youtube.com/watch?v=vv4y_uOneC0"}
+        {
+          "topic": "Routing Protocols (OSPF, BGP)",
+          "duration": "3 weeks",
+          "outcome": "Configure dynamic routing",
+          "youtube": "https://www.youtube.com/watch?v=2pQ9l0Y8W2E"
+        },
+        {
+          "topic": "Firewall & ACLs",
+          "duration": "2 weeks",
+          "outcome": "Network security policies",
+          "youtube": "https://www.youtube.com/watch?v=3QhU9jd03a0"
+        },
+        {
+          "topic": "VPN & Remote Access",
+          "duration": "2 weeks",
+          "outcome": "Secure remote connectivity",
+          "youtube": "https://www.youtube.com/watch?v=5FZ9Q7W2l7M"
+        },
+        {
+          "topic": "Wireless Networking",
+          "duration": "2 weeks",
+          "outcome": "WiFi standards, controllers",
+          "youtube": "https://www.youtube.com/watch?v=vv4y_uOneC0"
+        }
       ],
       "advanced": [
-        {"topic": "Network Automation (Python/Ansible)", "duration": "3 weeks", "outcome": "Automate network config", "youtube": "https://www.youtube.com/watch?v=wgQ3rHFTM4E"},
-        {"topic": "SD-WAN & SDN", "duration": "3 weeks", "outcome": "Software-defined networking", "youtube": "https://www.youtube.com/watch?v=8H8b1t4R1v0"},
-        {"topic": "Network Monitoring (SNMP, NetFlow)", "duration": "2 weeks", "outcome": "Traffic analysis", "youtube": "https://www.youtube.com/watch?v=9y8nR2mZxkQ"},
-        {"topic": "CCNA / CCNP Certification", "duration": "6 weeks", "outcome": "Industry-recognized certification", "youtube": "https://www.youtube.com/watch?v=3Z3X6M8c8eE"}
+        {
+          "topic": "Network Automation (Python/Ansible)",
+          "duration": "3 weeks",
+          "outcome": "Automate network config",
+          "youtube": "https://www.youtube.com/watch?v=wgQ3rHFTM4E"
+        },
+        {
+          "topic": "SD-WAN & SDN",
+          "duration": "3 weeks",
+          "outcome": "Software-defined networking",
+          "youtube": "https://www.youtube.com/watch?v=8H8b1t4R1v0"
+        },
+        {
+          "topic": "Network Monitoring (SNMP, NetFlow)",
+          "duration": "2 weeks",
+          "outcome": "Traffic analysis",
+          "youtube": "https://www.youtube.com/watch?v=9y8nR2mZxkQ"
+        },
+        {
+          "topic": "CCNA / CCNP Certification",
+          "duration": "6 weeks",
+          "outcome": "Industry-recognized certification",
+          "youtube": "https://www.youtube.com/watch?v=3Z3X6M8c8eE"
+        }
       ]
     }
   }
